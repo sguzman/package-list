@@ -1,3 +1,5 @@
+alacritty v0.10.1:
+    alacritty
 bat v0.19.0:
     bat
 cargo-update v8.1.2:
