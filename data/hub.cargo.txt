@@ -63,6 +63,8 @@ sonic-server v1.3.2:
     sonic
 trunk v0.14.0:
     trunk
+trust-dns v0.21.2:
+    named
 wasm-bindgen-cli v0.2.79:
     wasm-bindgen
     wasm-bindgen-test-runner
