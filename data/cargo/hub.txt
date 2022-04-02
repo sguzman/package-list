@@ -1,0 +1,77 @@
+alacritty v0.10.1:
+    alacritty
+asm-cli-rust v0.1.0 (https://github.com/cch123/asm-cli-rust#5b2c3f0f):
+    asm-cli-rust
+bat v0.20.0:
+    bat
+broot v1.9.4:
+    broot
+cargo-audit v0.16.0:
+    cargo-audit
+cargo-generate v0.13.0:
+    cargo-generate
+cargo-update v8.1.2:
+    cargo-install-update
+    cargo-install-update-config
+deno v1.20.1:
+    deno
+drill v0.7.2:
+    drill
+dura v0.1.0:
+    dura
+eidolon v1.4.6:
+    eidolon
+fd-find v8.3.1:
+    fd
+git-delta v0.12.1 (https://github.com/dandavison/delta#85a07cd1):
+    delta
+hexyl v0.9.0:
+    hexyl
+hwatch v0.3.3:
+    hwatch
+hyperfine v1.13.0:
+    hyperfine
+ion-shell v1.0.0-alpha (https://github.com/redox-os/ion#df993477):
+    ion
+jujutsu v0.3.3 (https://github.com/martinvonz/jj#b4e6fab1):
+    jj
+kalker v1.1.0:
+    kalker
+kmon v1.6.0:
+    kmon
+kytan v0.1.1 (https://github.com/changlan/kytan#be6bb64f):
+    kytan
+lapce v0.0.10 (https://github.com/lapce/lapce#1bce4358):
+    lapce
+    lapce-proxy
+lsd v0.21.0:
+    lsd
+mdbook v0.4.15:
+    mdbook
+neovide v0.8.0 (https://github.com/neovide/neovide#9c1481e1):
+    neovide
+nu v0.44.0:
+    nu
+    nu_plugin_core_match
+ripgrep v13.0.0:
+    rg
+sd v0.7.6:
+    sd
+skanuvaty v0.2.1 (https://github.com/Esc4iCEscEsc/skanuvaty#33a007ed):
+    skanuvaty
+sonic-server v1.3.2:
+    sonic
+trunk v0.14.0:
+    trunk
+wasm-bindgen-cli v0.2.79:
+    wasm-bindgen
+    wasm-bindgen-test-runner
+    wasm2es6js
+wasm-pack v0.10.2:
+    wasm-pack
+watchexec-cli v1.18.9:
+    watchexec
+xsv v0.13.0:
+    xsv
+zoxide v0.8.0:
+    zoxide
