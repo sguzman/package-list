@@ -4,17 +4,28 @@ asm-cli-rust v0.1.0 (https://github.com/cch123/asm-cli-rust#5b2c3f0f):
     asm-cli-rust
 bat v0.20.0:
     bat
-broot v1.9.4:
+bootimage v0.10.3:
+    bootimage
+    cargo-bootimage
+broot v1.10.0:
     broot
 cargo-audit v0.16.0:
     cargo-audit
+cargo-config v0.1.1:
+    cargo-config
 cargo-generate v0.13.0:
     cargo-generate
 cargo-update v8.1.2:
     cargo-install-update
     cargo-install-update-config
+cargo-watch v8.1.1:
+    cargo-watch
 deno v1.20.1:
     deno
+devserver v0.4.1:
+    devserver
+diskonaut v0.11.0:
+    diskonaut
 drill v0.7.2:
     drill
 dura v0.1.0:
@@ -46,15 +57,17 @@ lapce v0.0.10 (https://github.com/lapce/lapce#1bce4358):
     lapce-proxy
 lsd v0.21.0:
     lsd
-mdbook v0.4.15:
+mdbook v0.4.17:
     mdbook
 neovide v0.8.0 (https://github.com/neovide/neovide#9c1481e1):
     neovide
-nu v0.44.0:
+nu v0.60.0:
     nu
-    nu_plugin_core_match
 ripgrep v13.0.0:
     rg
+sccache v0.2.15:
+    sccache
+    sccache-dist
 sd v0.7.6:
     sd
 skanuvaty v0.2.1 (https://github.com/Esc4iCEscEsc/skanuvaty#33a007ed):
@@ -71,8 +84,11 @@ wasm-bindgen-cli v0.2.79:
     wasm2es6js
 wasm-pack v0.10.2:
     wasm-pack
-watchexec-cli v1.18.9:
+watchexec-cli v1.18.11:
     watchexec
+xargo v0.3.20:
+    xargo
+    xargo-check
 xsv v0.13.0:
     xsv
 zoxide v0.8.0:
