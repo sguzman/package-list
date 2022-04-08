@@ -2,8 +2,12 @@ alacritty v0.10.1:
     alacritty
 asm-cli-rust v0.1.0 (https://github.com/cch123/asm-cli-rust#5b2c3f0f):
     asm-cli-rust
+bandwhich v0.20.0:
+    bandwhich
 bat v0.20.0:
     bat
+bingrep v0.10.0:
+    bingrep
 bootimage v0.10.3:
     bootimage
     cargo-bootimage
@@ -20,6 +24,12 @@ cargo-update v8.1.2:
     cargo-install-update-config
 cargo-watch v8.1.1:
     cargo-watch
+crabz v0.7.2:
+    crabz
+ddh v0.12.0 (https://github.com/darakian/ddh#e4c574ff):
+    ddh
+delicate v0.1.0:
+    delicate
 deno v1.20.1:
     deno
 devserver v0.4.1:
@@ -28,14 +38,24 @@ diskonaut v0.11.0:
     diskonaut
 drill v0.7.2:
     drill
+du-dust v0.8.0:
+    dust
 dura v0.1.0:
     dura
 eidolon v1.4.6:
     eidolon
 fd-find v8.3.1:
     fd
+fselect v0.8.0:
+    fselect
+funzzy v0.3.3:
+    funzzy
+gfold v3.0.0:
+    gfold
 git-delta v0.12.1 (https://github.com/dandavison/delta#85a07cd1):
     delta
+gitui v0.20.1:
+    gitui
 hexyl v0.9.0:
     hexyl
 hwatch v0.3.3:
@@ -50,6 +70,8 @@ kalker v1.1.0:
     kalker
 kmon v1.6.0:
     kmon
+kondo v0.4.0:
+    kondo
 kytan v0.1.1 (https://github.com/changlan/kytan#be6bb64f):
     kytan
 lapce v0.0.10 (https://github.com/lapce/lapce#1bce4358):
@@ -57,12 +79,18 @@ lapce v0.0.10 (https://github.com/lapce/lapce#1bce4358):
     lapce-proxy
 lsd v0.21.0:
     lsd
+mcfly v0.6.0:
+    mcfly
 mdbook v0.4.17:
     mdbook
 neovide v0.8.0 (https://github.com/neovide/neovide#9c1481e1):
     neovide
 nu v0.60.0:
     nu
+procs v0.12.1:
+    procs
+rargs v0.3.0:
+    rargs
 ripgrep v13.0.0:
     rg
 sccache v0.2.15:
@@ -72,8 +100,12 @@ sd v0.7.6:
     sd
 skanuvaty v0.2.1 (https://github.com/Esc4iCEscEsc/skanuvaty#33a007ed):
     skanuvaty
+skim v0.9.4:
+    sk
 sonic-server v1.3.2:
     sonic
+tokei v12.1.2:
+    tokei
 trunk v0.14.0:
     trunk
 trust-dns v0.21.2:

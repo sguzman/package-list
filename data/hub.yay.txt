@@ -50,6 +50,10 @@ local/adwaita-maia 20210426-2
     A modified default GNOME/GTK theme with some extras/enhancements/additions.
 local/adwaita-qt 1.4.1-1
     A style to bend Qt5 applications to look like they belong into GNOME Shell
+local/agda 2.6.2-67
+    A dependently typed functional programming language and proof assistant
+local/akku 1.1.0-4
+    Language package manager for Scheme
 local/alacarte 1:3.42.0-2
     Menu editor for gnome
 local/alacritty 0.10.1-1
@@ -84,6 +88,8 @@ local/aom 3.3.0-1
     Alliance for Open Media video codec
 local/apache 2.4.52-1
     A high performance Unix-based HTTP server
+local/apg 2.2.3-5
+    Automated Password Generator.
 local/apparmor 3.0.4-1
     Mandatory Access Control (MAC) using Linux Security Module (LSM)
 local/appimagelauncher 2.2.0-7
@@ -108,6 +114,8 @@ local/aria2 1.36.0-1
     Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink
 local/asciidoctor 2.0.17-1
     An implementation of AsciiDoc in Ruby
+local/asdf-vm 0.9.0-1
+    Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
 local/at-spi2-atk 2.38.0-1
     A GTK+ module that bridges ATK to D-Bus at-spi
 local/at-spi2-core 2.42.0-1
@@ -126,6 +134,8 @@ local/aubio 0.4.9-13 (pro-audio)
     A tool for extracting annotations from audio signals
 local/audit 3.0.7-1
     Userspace components of the audit framework
+local/aurvote 1.9-3
+    Tool to vote for favorite AUR packages
 local/autoconf 2.71-1 (base-devel)
     A GNU tool for automatically configuring source code
 local/autoconf-archive 1:2022.02.11-1
@@ -176,6 +186,8 @@ local/bluez-libs 5.63-2
     Deprecated libraries for the bluetooth protocol stack
 local/bluez-utils 5.63-2
     Development and debugging utilities for the bluetooth protocol stack
+local/bmon 4.0-4
+    Portable bandwidth monitor and rate estimator
 local/bolt 0.9.2-1
     Thunderbolt 3 device manager
 local/boost 1.78.0-1
@@ -190,12 +202,16 @@ local/bridge-utils 1.7.1-1
     Utilities for configuring the Linux ethernet bridge
 local/brotli 1.0.9-7
     Generic-purpose lossless compression algorithm
+local/bsd-games 3.1-1
+    Linux port of the collection of BSD command line games
 local/btrfs-progs 5.16.2-1
     Btrfs filesystem utilities
 local/bubblewrap 0.6.1-1
     Unprivileged sandboxing tool
 local/buildkite-agent-bin 3.22.1-1
     The Buildkite Agent
+local/byobu 5.133-2
+    Enhanced tmux
 local/bzip2 1.0.8-4
     A high-quality data compression program
 local/c-ares 1.18.1-1
@@ -206,6 +222,8 @@ local/ca-certificates-mozilla 3.76-1
     Mozilla's set of trusted CA certificates
 local/ca-certificates-utils 20210603-1
     Common CA certificates (utilities)
+local/cabal-install 3.4.0.0-107
+    The command-line interface for Cabal and Hackage.
 local/cabextract 1.9.1-2
     A program to extract Microsoft cabinet (.CAB) files
 local/caffeine-ng 3.5.1+71+g77611ac-1
@@ -226,6 +244,8 @@ local/cayley 0.7.7-2
     An open-source graph inspired by the graph database behind Freebase and Google's Knowledge Graph.
 local/cblas 3.10.0-1
     C interface to BLAS
+local/ccze 0.2.1-12
+    Robust and modular log colorizer with many plugins
 local/cdparanoia 10.2-8
     Compact Disc Digital Audio extraction tool
 local/cdrtools 3.02a09-5
@@ -266,6 +286,8 @@ local/clutter-gtk 1.8.4-2
     Clutter integration with GTK+
 local/cmake 3.22.3-1
     A cross-platform open-source make system
+local/cmatrix 2.0-2
+    A curses-based scrolling 'Matrix'-like screen
 local/cmigemo-git rel.1_2.r45.g9a1cec4-1
     An implementation of Migemo in C
 local/code 1.65.1-1
@@ -308,6 +330,12 @@ local/containerd 1.6.1-1
     An open and reliable container runtime
 local/cool-retro-term 1.2.0-2
     A good looking terminal emulator which mimics the old cathode display
+local/coq 8.15.0-2 (coq)
+    Formal proof management system
+local/coq-doc 8.15.0-2 (coq)
+    HTML and PDF documentation for the Coq proof assistant
+local/coqide 8.15.0-2 (coq)
+    GTK-based graphical interface for the Coq proof assistant
 local/coreutils 9.0-2
     The basic file, shell and text manipulation utilities of the GNU operating system
 local/cowsay 3.04-2
@@ -322,6 +350,8 @@ local/cracklib 2.9.7-2
     Password Checking Library
 local/crda 4.14-4
     Central Regulatory Domain Agent for wireless networks
+local/create-elm-app 4.2.26-1
+    Create Elm apps with zero configuration
 local/cronie 1.5.7-2
     Daemon that runs specified programs at scheduled times and related tools
 local/cryptsetup 2.4.3-2
@@ -368,6 +398,8 @@ local/deja-dup 42.9-1
     Simple backup tool, that hides the complexity of backing up the Right Way and uses duplicity as the backend
 local/dejagnu 1.6.3-2
     Framework for testing other programs
+local/deno 1.17.3-1
+    A secure runtime for JavaScript and TypeScript
 local/desktop-file-utils 0.26-2
     Command line utilities for working with desktop entries
 local/device-mapper 2.03.15-1
@@ -406,14 +438,14 @@ local/djvulibre 3.5.28-3
     Suite to create, manipulate and view DjVu ('déjà vu') documents
 local/dkms 3.0.3-1
     Dynamic Kernel Modules System
-local/dl-musescore 0.33.0-1
-    Download sheet music from MuseScore.
 local/dmenu 5.1-1
     Generic menu for X
 local/dmidecode 3.3-1
     Desktop Management Interface table related utilities
 local/dmraid 1.0.0.rc16.3-13
     Device mapper RAID interface
+local/dnsenum 1.2.4.2-1
+    Enumerate DNS information from a domain and discover non-contiguous ip blocks
 local/dnsmasq 2.86-1
     Lightweight, easy to configure DNS forwarder and DHCP server
 local/dnssec-anchors 20190629-3
@@ -488,8 +520,12 @@ local/elfutils 0.186-5
     Handle ELF object files and DWARF debugging information (utilities)
 local/elm-bin 0.19.1-1
     Elm compiler (official binary)
-local/emacs-ng 28.0.50-3
-    A new approach to Emacs - Including TypeScript, Threading, Async I/O, and WebRender
+local/elm-format-bin 0.8.5-1
+    Format Elm source code according to a standard set of rules based on the official Elm Style Guide.
+local/elm-test 0.19.1-1
+    Run elm-test suites.
+local/emacs 27.2-2
+    The extensible, customizable, self-documenting real-time display editor
 local/embree 3.13.3-1
     Collection of high-performance ray tracing kernels
 local/emsdk 2.0.34-2
@@ -520,7 +556,7 @@ local/expat 2.4.7-1
     An XML parser library
 local/expect 5.45.4-2
     A tool for automating interactive applications
-local/expressvpn 3.19.0.13_1-1
+local/expressvpn 3.21.0.2_1-1
     Proprietary VPN client for Linux
 local/extra-cmake-modules 5.91.0-1 (kf5)
     Extra modules and scripts for CMake
@@ -560,7 +596,7 @@ local/filesystem 2021.12.07-3
     Base Manjaro Linux files
 local/findutils 4.9.0-1 (base-devel)
     GNU utilities to locate files
-local/firefox 98.0.1-1
+local/firefox 98.0.2-1
     Standalone web browser from mozilla.org
 local/fish 3.3.1-1
     Smart and user friendly shell intended mostly for interactive use
@@ -592,6 +628,248 @@ local/foomatic-db-gutenprint-ppds 5.3.4-1
     simplified prebuilt ppd files
 local/fortune-mod 3.12.0-1
     The Fortune Cookie Program from BSD games
+local/fortune-mod-2brokegirls 1607160254-1
+    Fortune quotes from 2 Broke Girls
+local/fortune-mod-3rfts 1609220137-1
+    Fortune quotes from 3rd Rock from the Sun
+local/fortune-mod-acecombat 2012130332-1
+    Fortune quotes from Ace Combat
+local/fortune-mod-americandad 1603281158-1
+    Fortune quotes from American Dad!
+local/fortune-mod-anarchism 1.8.0-2 (fortune-mods)
+    Anarchist fortune quotes
+local/fortune-mod-anti-jokes-git r4.f75fcc2-1
+    Anti-jokes fortune cookies
+local/fortune-mod-archer 4.2-1 (fortune-mods)
+    Archer FXNetwork fortune cookie file
+local/fortune-mod-archlinux 1-3 (fortune-mods)
+    #archlinux fortune cookie file
+local/fortune-mod-arresteddevelopment 1606151120-1
+    Fortune quotes from Arrested Development
+local/fortune-mod-asoiaf 20150916-1
+    Fortune cookies from A Song of Ice and Fire series
+local/fortune-mod-bashfr 10-9 (fortune-mods)
+    bashfr.org/DTC (danstonchat.com) fortune file
+local/fortune-mod-betteroffted 1603131748-1
+    Fortune quotes from Better Off Ted
+local/fortune-mod-billwurtz 1.0-1
+    A collection of quotes from bill wurtz for usage with fortune, i guess...
+local/fortune-mod-blackadder 1603201321-1
+    Fortune quotes from Blackadder
+local/fortune-mod-blackbooks 1608100121-1
+    Fortune quotes from Black Books
+local/fortune-mod-bofh-excuses 20151113.024512-1 (fortune-mods)
+    BOFH excuses fortune cookie files
+local/fortune-mod-br 20080530-1
+    A collection of several fortune cookies for Portuguese speakers, gathered from various sources, ranging from proverbs to quotations from literature classics.
+local/fortune-mod-breakingbad 1611152221-1
+    Fortune quotes from Breaking Bad
+local/fortune-mod-brooklyn-nine-nine 1.0-1 (fortune-mods)
+    Brooklyn Nine-Nine fortune cookie file
+local/fortune-mod-bunheads 1504021515-1
+    Fortune quotes from Bunheads
+local/fortune-mod-burnnotice 1604291931-1
+    Fortune quotes from Burn Notice
+local/fortune-mod-californication 1511131935-1
+    Fortune quotes from Californication
+local/fortune-mod-calvin 0.3-1
+    Calvin and Hobbes fortune cookies
+local/fortune-mod-canada-nctr 20210624.3-1 (fortune-mods)
+    Fortune quotes from the Truth and Reconciliation Commission of Canada Calls to Action
+local/fortune-mod-carnivale 1609252225-1
+    Fortune quotes from Carnivàle
+local/fortune-mod-chappelle 1608131137-1
+    Fortune quotes from Chappelle's Show
+local/fortune-mod-chuck 1610270408-1
+    Fortune quotes from Chuck
+local/fortune-mod-chucknorris 1-3
+    Fortune cookies: Chuck Norris facts.
+local/fortune-mod-confucius 20200529-1
+    Fortune cookies: Confucius sayings.)
+local/fortune-mod-cybersuntzu 1-1 (fortune-mods)
+    #Cyber Sun Tzu fortune cookie file
+local/fortune-mod-darkangel 1601191607-1
+    Fortune quotes from Dark Angel
+local/fortune-mod-darkestdungeon 20171129-4
+    Fortune cookies: Darkest Dungeon (game).
+local/fortune-mod-darkknight 20091218-3
+    Fortune cookies: The Dark Knight (Movie).
+local/fortune-mod-darkwingduck 1611021444-1
+    Fortune quotes from Darkwing Duck
+local/fortune-mod-de-git 0.34.r383.gc0e2322-1 (fortune-mods)
+    Fortune Cookies in German, from the Debian project
+local/fortune-mod-dexter 1611140124-1
+    Fortune quotes from Dexter
+local/fortune-mod-dexterslab 1608291626-1
+    Fortune quotes from Dexter's Laboratory
+local/fortune-mod-dhammapada 1-1
+    A collection of Fortune cookies from the Buddha's Dhammapada
+local/fortune-mod-discworld 0-3
+    Fortune cookies from the "Discworld" novels by Terry Pratchett.
+local/fortune-mod-doctorwho-classic-series 1.1-1 (fortune-mods)
+    Doctor who classic series (1963-1989) fortune cookie file
+local/fortune-mod-doctorwho-new-series 11.1-1 (fortune-mods)
+    Doctor who new series (2005-present) fortune cookie file
+local/fortune-mod-ducktales 1611012213-1
+    Fortune quotes from DuckTales
+local/fortune-mod-entourage 1-3 (fortune-mods)
+    Entourage [HBO] fortune cookie file
+local/fortune-mod-entourage-ari_gold 1-2 (fortune-mods)
+    Ari Gold (Entourage) [HBO] fortune cookie file
+local/fortune-mod-es 1.36-1 (fortune-mods)
+    Fortune Cookies in Spanish, from the Debian project
+local/fortune-mod-eureka 1605260125-1
+    Fortune quotes from Eureka
+local/fortune-mod-farscape r3040076-1 (fortune-mods)
+    Fortune cookies: Farscape (TV series), scraped from https://en.wikiquote.org/wiki/Farscape
+local/fortune-mod-ferengi_rules_of_acquisition 20080318-1
+    Fortune cookies: The Ferengi Rules of Acquisition from Star Trek
+local/fortune-mod-firefly 3.0.0-3
+    Fortune cookies from Joss Whedon's Firefly series.
+local/fortune-mod-foxtrot 2203182308-1
+    Fortune quotes from FoxTrot
+local/fortune-mod-freshprince 1603111444-1
+    Fortune quotes from The Fresh Prince of Bel-Air
+local/fortune-mod-fringe 1604012231-1
+    Fortune quotes from Fringe
+local/fortune-mod-fullhouse 1601072012-1
+    Fortune quotes from Full House
+local/fortune-mod-futurama 0.2-4 (fortune-mods)
+    Futurama fortune cookie files
+local/fortune-mod-fvl-git r4.5bcd5db-1
+    Fortune quotes by Felix von Leitner (Fefe)
+local/fortune-mod-gushiwen-git r2.00d7cec-1 (fortune-mods)
+    Chinese gushiwen for fortune-mod
+local/fortune-mod-hackers 1-1 (fortune-mod)
+    Quotes from the movie Hackers fortune cookie file
+local/fortune-mod-himym 1603280242-1
+    Fortune quotes from How I Met Your Mother
+local/fortune-mod-hitchhiker 20050611-3
+    Collection of quotes (fortune cookies) from Douglas Adams' famous Hitchhikers Guide to the Galaxy
+local/fortune-mod-homeland 1601141717-1
+    Fortune quotes from Homeland
+local/fortune-mod-husse 1.0.2-3 (fortune-mods)
+    A compilation of quotes from Husse (Linux Mint)
+local/fortune-mod-iasip 1-2 (fortune-mods)
+    It's Always Sunny In Philadelphia fortune cookie file
+local/fortune-mod-irk-git r1.5bd929f-1
+    Fortune cookies from Irk bitig - Book of omens
+local/fortune-mod-issa-haiku 1.1-5
+    Fortune cookies: Kobayashi Issa's haiku collection (7000+)
+local/fortune-mod-kaamelott 4-1
+    Quotes from the French comedy show Kaamelott.
+local/fortune-mod-ku-git r37.3570705-1
+    Fortune cookies from the AbcLinuxu.cz & KERNEL ULTRAS community
+local/fortune-mod-kylexy 1504030023-1
+    Fortune quotes from Kyle XY
+local/fortune-mod-lafemmenikita 1603311250-1
+    Fortune quotes from La Femme Nikita
+local/fortune-mod-lambda 11-1 (fortune-mods)
+    Collection of fortune cookies of lambda nature
+local/fortune-mod-leagueofgentlemen 1503102216-1
+    Fortune quotes from The League of Gentlemen
+local/fortune-mod-lemons-git r8.3a38b09-1 (fortune-mods)
+    Adds lemons and lemonauthors fortune files
+local/fortune-mod-limericks 2021.08.21-1
+    A collection of really funny and perverse limericks.
+local/fortune-mod-lorquotes 2021.07-1 (fortune-mods)
+    The selected citations from a site Linux.Org.Ru (UTF8)
+local/fortune-mod-lost 1511212242-1
+    Fortune quotes from Lost
+local/fortune-mod-lostgirl 1602031647-1
+    Fortune quotes from Lost Girl
+local/fortune-mod-marriedwithchildren 1610070705-1
+    Fortune quotes from Married... with Children
+local/fortune-mod-matrix 20160822-2 (fortune-mods)
+    Fortune cookies: The Matrix trilogy
+local/fortune-mod-mechanicus 20200720-1
+    Fortune cookies: Warhammer 40,000 - Mechanicus (game).
+local/fortune-mod-mentalist 1605142014-1
+    Fortune quotes from The Mentalist
+local/fortune-mod-metalfairytale-fr-git 39474bb-4
+    A fairy tale whose hero belongs to one of the many Metal (sub-)genres, served in the marvelous form of fortune cookies!
+local/fortune-mod-metalfairytale-git 39474bb-4
+    A fairy tale whose hero belongs to one of the many Metal (sub-)genres, served in the marvelous form of fortune cookies!
+local/fortune-mod-metalgear 2110081421-1
+    Fortune quotes from Metal Gear
+local/fortune-mod-metalocalypse 1603011952-1
+    Fortune quotes from Metalocalypse
+local/fortune-mod-mingju-git r15.e2398a0-1 (fortune-mods)
+    Chinese mingju for fortune-mod
+local/fortune-mod-misfits 1-2 (fortune-mods)
+    Misfits (UK) Series on E4 fortune cookie file
+local/fortune-mod-mlp 3.0.3.34.g8a2c7141-1
+    Fortune quotes from My Little Pony Friendship is Magic. Quotes come from ponysay.
+local/fortune-mod-mlpfim 1604021844-1
+    Fortune quotes from My Little Pony: Friendship is Magic
+local/fortune-mod-montypython 20140622-2
+    Fortune cookies: Monty Python and the Holy Grail.
+local/fortune-mod-mrsunshine 1505041934-1
+    Fortune quotes from Mr. Sunshine
+local/fortune-mod-multidesk 20140622-2 (fortune-mods)
+    Fortune cookies: Jayce about his OS, MultiDeskOS.
+local/fortune-mod-mynameisearl 1505221559-1
+    Fortune quotes from My Name is Earl
+local/fortune-mod-newgirl 1610071915-1
+    Fortune quotes from New_Girl
+local/fortune-mod-oblique-strategies 201610103-1
+    Collection of fortune files for Brian Eno's 'Oblique Strategies'
+local/fortune-mod-parks-and-recreation 1.2-1 (fortune-mods)
+    Parks and Recreation fortune cookie file
+local/fortune-mod-peepshow 1-2 (fortune-mods)
+    Peep Show BBC Sitcom fortune cookie file
+local/fortune-mod-portal-game 1.0-2 (fortune-mods)
+    Portal quotes for the Unix fortune tool
+local/fortune-mod-prettylittleliars 1604040751-1
+    Fortune quotes from Pretty Little Liars
+local/fortune-mod-profile 1-1
+    Displays a random fortune on interactive shells
+local/fortune-mod-protolol-git 9f59ff8-2
+    A compilation of networking jokes
+local/fortune-mod-psych 1603090531-1
+    Fortune quotes from Psych
+local/fortune-mod-quantumleap 1603281810-1
+    Fortune quotes from Quantum Leap
+local/fortune-mod-question-answer-jokes 4.3-1
+    Q: what do you get from this fortune file? A: Some funny, and some really cheesy jokes.
+local/fortune-mod-rickandmorty 10.09.2017-1
+    Fortune quotes from Rick and Morty. GOTTA GET SCHWIFTY
+local/fortune-mod-sabrina 1611101104-1
+    Fortune quotes from Sabrina, the Teenage Witch
+local/fortune-mod-scrubs 1512071537-1
+    Fortune quotes from Scrubs
+local/fortune-mod-sherlock 1611121619-1
+    Fortune quotes from Sherlock
+local/fortune-mod-southpark 1512190317-1
+    Fortune quotes from South Park
+local/fortune-mod-starwars 0-1
+    Fortune cookies: Collection of quotes from the Star Wars movies
+local/fortune-mod-supernatural 1603210424-1
+    Fortune quotes from Supernatural (U.S. TV series)
+local/fortune-mod-tgagaapp 1403181321-1
+    Fortune quotes from Two Guys, a Girl and a Pizza Place
+local/fortune-mod-that70sshow 1601221149-1
+    Fortune quotes from That '70s Show
+local/fortune-mod-thebigbangtheory 1603122342-1
+    Fortune quotes from The Big Bang Theory
+local/fortune-mod-thenewsroom 1611210044-1
+    Fortune quotes from The Newsroom
+local/fortune-mod-theshield 1610170050-1
+    Fortune quotes from The Shield
+local/fortune-mod-torchwood 1607250418-1
+    Fortune quotes from Torchwood
+local/fortune-mod-twoandahalfmen 1604032200-1
+    Fortune quotes from Two and a Half Men
+local/fortune-mod-vimtips 201510719-3
+    Vim fortune cookies
+local/fortune-mod-warehouse13 1602060612-1
+    Fortune quotes from Warehouse 13
+local/fortune-mod-xfiles 0-3
+    A collection of fortune cookies from X-Files
+local/fortune-mod-yiddish 20210415-1
+    Fortune cookies: yiddish wits.
+local/fortune-mod-zh 2.98-1 (fortune-mods)
+    Chinese poems for fortune-mod
 local/fprintd 1.94.2-1 (fprint)
     D-Bus service to access fingerprint readers
 local/freecad 0.19.4-1
@@ -682,6 +960,8 @@ local/gettext 0.21-2 (base-devel)
     GNU internationalization library
 local/gfbgraph 0.2.5-1
     GLib/GObject wrapper for the Facebook Graph API
+local/ghc 9.0.2-1
+    The Glasgow Haskell Compiler
 local/ghc-libs 9.0.2-1
     The Glasgow Haskell Compiler - Dynamic Libraries
 local/ghostscript 9.55.0-4
@@ -776,7 +1056,7 @@ local/gnome-getting-started-docs 3.38.1-1 (gnome)
     Help a new user get started in GNOME
 local/gnome-keyring 1:40.0-1.1 (gnome)
     Stores passwords and encryption keys
-local/gnome-layout-switcher 0.8.25-1
+local/gnome-layout-switcher 0.8.25-2
     A simple gui for choosing gnome desktop layout
 local/gnome-maps 41.4-1 (gnome)
     A simple GNOME 3 maps application
@@ -852,8 +1132,10 @@ local/gobject-introspection-runtime 1.70.0-5
     Introspection system for GObject-based libraries (runtime library)
 local/gom 0.4-5
     A GObject to SQLite object mapper
-local/google-chrome 99.0.4844.74-1
+local/google-chrome 100.0.4896.75-1
     The popular and trusted web browser by Google (Stable Channel)
+local/google-chrome-dev 102.0.4972.0-1
+    The popular and trusted web browser by Google (Dev Channel)
 local/googletest-git 1.11.0.r168.gc9461a9b-1
     Google's C++ test framework
 local/gparted 1.3.1-1
@@ -1004,10 +1286,14 @@ local/harfbuzz-icu 4.0.1-1
     OpenType text shaping engine - ICU integration
 local/harvid 0.8.3-3
     HTTP Ardour Video Daemon
+local/haskell-adjunctions 4.4-294
+    Adjunctions and representable functors
 local/haskell-aeson 1.5.6.0-86
     A JSON parsing and encoding library optimized for ease of use and high performance.
 local/haskell-aeson-pretty 0.8.9-37
     JSON pretty-printing library and command-line tool.
+local/haskell-algebraic-graphs 0.6-12
+    A library for algebraic graph construction and transformation
 local/haskell-annotated-wl-pprint 0.7.0-25
     The Wadler/Leijen Pretty Printer, with annotation support
 local/haskell-ansi-terminal 0.11.1-3
@@ -1016,6 +1302,8 @@ local/haskell-ansi-wl-pprint 0.6.9-280
     The Wadler/Leijen Pretty Printer for colored ANSI terminal output
 local/haskell-appar 0.1.8-13
     A simple applicative parser
+local/haskell-apply-refact 0.9.3.0-78
+    Perform refactorings specified by the refact library.
 local/haskell-asn1-encoding 0.9.6-156
     ASN1 data reader and writer in RAW, BER and DER forms
 local/haskell-asn1-parse 0.9.5-156
@@ -1052,10 +1340,20 @@ local/haskell-blaze-html 0.9.1.2-155
     A blazingly fast HTML combinator library for Haskell
 local/haskell-blaze-markup 0.8.2.8-61
     A blazingly fast markup combinator library for Haskell
+local/haskell-blaze-textual 0.2.2.1-26
+    Fast rendering of common datatypes
+local/haskell-boxes 0.1.5-167
+    2D text pretty-printing library
+local/haskell-bsb-http-chunked 0.0.0.4-268
+    Chunked HTTP transfer encoding for bytestring builders
 local/haskell-byteable 0.1.1-25
     Type class for sequence of bytes
 local/haskell-byteorder 1.0.4-24
     Exposes the native endianness or byte ordering of the system.
+local/haskell-bytestring-encoding 0.1.1.0-48
+    ByteString ↔ Text converter based on GHC.IO.Encoding
+local/haskell-call-stack 0.4.0-48
+    Use GHC call-stacks in a backward compatible way
 local/haskell-casa-client 0.0.1-404
     Content Addressable Storage Archive client
 local/haskell-casa-types 0.0.2-206
@@ -1064,12 +1362,18 @@ local/haskell-case-insensitive 1.2.1.0-134
     Case insensitive string comparison
 local/haskell-cereal 0.5.8.2-2
     A binary serialization library
+local/haskell-charset 0.3.9-24
+    A compatibility layer for base
+local/haskell-cheapskate 0.1.1.2-404
+    Experimental markdown processor.
 local/haskell-citeproc 0.6.0.1-18
     Generates citations and bibliography from CSL styles.
 local/haskell-clock 0.8.2-137
     High-resolution clock functions: monotonic, realtime, cputime.
 local/haskell-cmdargs 0.10.21-4
     Command line argument processing
+local/haskell-code-page 0.2.1-5
+    Windows code page library for Haskell
 local/haskell-colour 2.3.6-72
     A model for human colour/color perception
 local/haskell-commonmark 0.2.1.1-9
@@ -1084,20 +1388,32 @@ local/haskell-conduit 1.3.4.2-34
     Streaming data processing library.
 local/haskell-conduit-extra 1.3.5-212
     Batteries included conduit: adapters for common libraries.
+local/haskell-conduit-parse 0.2.1.0-198
+    Parsing framework based on conduit
 local/haskell-connection 0.3.1-178
     Simple and easy network connections API
 local/haskell-constraints 0.13.2-7
     Constraint manipulation
+local/haskell-constraints-extras 0.3.2.1-16
+    Utility package for constraints
 local/haskell-contravariant 1.5.5-3
     Contravariant functors
 local/haskell-cookie 0.4.5-12
     HTTP cookie parsing and rendering
+local/haskell-cpphs 1.20.9.1-12
+    A liberalised re-implementation of cpp, the C pre-processor.
+local/haskell-cryptohash-md5 0.11.101.0-29
+    Fast, pure and practical MD5 implementation
+local/haskell-cryptohash-sha1 0.11.101.0-14
+    Fast, pure and practical SHA-1 implementation
 local/haskell-cryptohash-sha256 0.11.102.1-22
     Fast, pure and practical SHA-256 implementation
 local/haskell-cryptonite 0.29-49
     Cryptography Primitives sink
 local/haskell-cryptonite-conduit 0.2.2-464
     Conduit bridge for cryptonite
+local/haskell-css-text 0.1.3.0-215
+    CSS parser and renderer.
 local/haskell-data-default 0.7.1.1-205
     A class for types with a default value
 local/haskell-data-default-class 0.1.2.0-24
@@ -1110,8 +1426,20 @@ local/haskell-data-default-instances-old-locale 0.0.1-36
     Default instances for types in old-locale
 local/haskell-data-fix 0.3.2-33
     Fixpoint data types
+local/haskell-data-hash 0.2.0.1-24
+    Combinators for building fast hashing functions.
+local/haskell-dependent-map 0.4.0.0-86
+    Dependent finite maps (partial dependent products)
+local/haskell-dependent-sum 0.7.1.0-86
+    Dependent sum type
+local/haskell-dependent-sum-template 0.1.1.0-19
+    Template Haskell code to generate instances of classes in dependent-sum package
+local/haskell-diff 0.4.1-6
+    O(ND) diff algorithm in haskell
 local/haskell-digest 0.0.1.3-2
     Various cryptographic hashes for bytestrings; CRC32 and Adler32 for now.
+local/haskell-direct-sqlite 2.3.26-69
+    Low-level binding to SQLite3. Includes UTF8 and BLOB support.
 local/haskell-distributive 0.6.2.1-133
     Distributive functors -- Dual to Traversable
 local/haskell-dlist 1.0-140
@@ -1126,12 +1454,18 @@ local/haskell-echo 0.1.4-4
     A cross-platform, cross-console way to handle echoing terminal input
 local/haskell-ed25519 0.0.5.0-24
     Ed25519 cryptographic signatures
+local/haskell-edit-distance 0.2.2.1-138
+    Levenshtein and restricted Damerau-Levenshtein edit distances
 local/haskell-either 5.0.1.1-208
     An either monad transformer
 local/haskell-emojis 0.1.2-5
     Conversion between emoji characters and their names
 local/haskell-enclosed-exceptions 1.0.3-184
     Catching all exceptions from within an enclosed computation
+local/haskell-entropy 0.4.1.7-2
+    A mostly platform independent (not GHCJS) method to obtain cryptographically strong entropy
+local/haskell-equivalence 0.4-5
+    Maintaining an equivalence relation implemented as union-find using STT.
 local/haskell-erf 2.0.0.0-24
     The error function, erf, and related functions.
 local/haskell-errors 2.3.0-64
@@ -1144,16 +1478,54 @@ local/haskell-file-embed 0.0.14.0-4
     Use Template Haskell to embed file contents directly.
 local/haskell-filelock 0.1.1.5-123
     Portable interface to file locking (flock / LockFileEx)
+local/haskell-filemanip 0.3.6.3-35
+    Expressive file and directory manipulation for Haskell.
+local/haskell-filepattern 0.1.2-179
+    File path glob-like matching
 local/haskell-filtrable 0.1.6.0-114
     Class of filtrable containers
+local/haskell-fingertree 0.1.4.2-162
+    Generic finger-tree structure, with example instances
+local/haskell-floskell 0.10.5-178
+    A flexible Haskell source code pretty printer
+local/haskell-fmlist 0.9.4-7
+    FoldMap lists
+local/haskell-foldl 1.4.12-48
+    Composable, streaming, and efficient left folds
+local/haskell-foundation 0.0.27-4
+    Alternative prelude with batteries and no dependencies
+local/haskell-fourmolu 0.3.0.0-139
+    A formatter for Haskell source code
+local/haskell-free 5.1.7-63
+    Monads for free
 local/haskell-fsnotify 0.3.0.1-259
     Cross platform library for file change notification.
+local/haskell-fuzzy 0.1.0.1-34
+    Filters a list based on a fuzzy string search.
 local/haskell-generic-deriving 1.14.1-29
     Generic programming library for generalised deriving.
+local/haskell-ghc-api-compat 8.6.1-6
+    GHC-API compatibility helpers
 local/haskell-ghc-bignum-orphans 0.1-2
     Backwards-compatible orphan instances for ghc-bignum
+local/haskell-ghc-check 0.5.0.6-30
+    detect mismatches between compile-time and run-time versions of the ghc api
+local/haskell-ghc-exactprint 0.6.4-76
+    ExactPrint for GHC
+local/haskell-ghc-lib-parser 8.10.5.20210606-2
+    The GHC API, decoupled from GHC versions
+local/haskell-ghc-lib-parser-ex 9.0.0.4-48
+    Algorithms on GHC parse trees
+local/haskell-ghc-paths 0.1.0.12-12
+    Knowledge of GHC's installation directories
+local/haskell-ghc-trace-events 0.1.2.4-2
+    Faster traceEvent and traceMarker, and binary object logging for eventlog
+local/haskell-ghcide 1.4.1.0-98
+    The core of an IDE
 local/haskell-githash 0.1.6.2-66
     Some handy Template Haskell splices for including the current git hash and branch in the code of your project
+local/haskell-gitrev 1.3.1-29
+    Compile git revision info into Haskell projects
 local/haskell-glob 0.10.2-21
     Globbing library
 local/haskell-hackage-security 0.6.0.1-268
@@ -1162,14 +1534,58 @@ local/haskell-haddock-library 1.10.0-102
     A documentation-generation tool for Haskell libraries
 local/haskell-hashable 1.4.0.0-13
     A class for types that can be converted to a hash value
+local/haskell-hashtables 1.2.4.2-23
+    Mutable hash tables in the ST monad
+local/haskell-heaps 0.4-4
+    Asymptotically optimal Brodal/Okasaki heaps
+local/haskell-heapsize 0.3.0.1-99
+    Determine the size of runtime data structures
 local/haskell-hi-file-parser 0.1.2.0-63
     Parser for GHC's hi files
+local/haskell-hie-bios 0.7.6-59
+    Set up a GHC API session
+local/haskell-hie-compat 0.2.0.0-3
+    HIE files for GHC 8.6 and other HIE file backports
+local/haskell-hiedb 0.4.1.0-40
+    Generates a references DB from .hie files
 local/haskell-hinotify 0.4.1-102
     Haskell binding to inotify
+local/haskell-hls-call-hierarchy-plugin 1.0.0.0-97
+    Call hierarchy plugin for Haskell Language Server
+local/haskell-hls-eval-plugin 1.1.2.0-98
+    Eval plugin for Haskell Language Server
+local/haskell-hls-explicit-imports-plugin 1.0.1.0-97
+    Explicit imports plugin for Haskell Language Server
+local/haskell-hls-floskell-plugin 1.0.0.1-97
+    Integration with the Floskell code formatter
+local/haskell-hls-fourmolu-plugin 1.0.0.2-101
+    Integration with the Fourmolu code formatter
+local/haskell-hls-graph 1.4.0.0-107
+    Haskell Language Server internal graph API
+local/haskell-hls-haddock-comments-plugin 1.0.0.3-97
+    Haddock comments plugin for Haskell Language Server
+local/haskell-hls-hlint-plugin 1.0.1.1-97
+    Hlint integration plugin with Haskell Language Server
+local/haskell-hls-module-name-plugin 1.0.0.1-97
+    Module name plugin for Haskell Language Server
+local/haskell-hls-ormolu-plugin 1.0.1.0-100
+    Integration with the Ormolu code formatter
+local/haskell-hls-plugin-api 1.2.0.0-80
+    Haskell Language Server API for plugin communication
+local/haskell-hls-pragmas-plugin 1.0.1.0-97
+    Pragmas plugin for Haskell Language Server
+local/haskell-hls-retrie-plugin 1.0.1.1-97
+    Retrie integration plugin for Haskell Language Server
+local/haskell-hls-stylish-haskell-plugin 1.0.0.2-98
+    Integration with the Stylish Haskell code formatter
 local/haskell-hourglass 0.2.12-177
     simple performant time related library
 local/haskell-hpack 0.34.4-139
     A modern format for Haskell packages
+local/haskell-hscolour 1.24.4-23
+    Colourise Haskell code.
+local/haskell-hslogger 1.3.1.0-157
+    Versatile logging framework
 local/haskell-hslua 1.3.0.1-102
     A Lua language interpreter embedding in Haskell
 local/haskell-hslua-module-path 0.1.0.1-87
@@ -1180,6 +1596,8 @@ local/haskell-hslua-module-text 0.3.0.1-146
     Lua module for text
 local/haskell-hsyaml 0.2.1.0-147
     Pure Haskell YAML 1.2 processor
+local/haskell-hsyaml-aeson 0.2.0.1-33
+    JSON to YAML Adapter
 local/haskell-http 4000.3.16-138
     A library for client-side HTTP
 local/haskell-http-api-data 0.4.3-104
@@ -1190,24 +1608,56 @@ local/haskell-http-client-tls 0.3.5.3-496
     http-client backend using the connection package and tls library
 local/haskell-http-conduit 2.3.8-152
     HTTP client package with conduit interface and HTTPS support
+local/haskell-http-date 0.0.11-67
+    HTTP Date parser/formatter
 local/haskell-http-download 0.2.0.0-407
     Verified downloads with retries
 local/haskell-http-types 0.12.3-214
     Generic HTTP types for Haskell (for both client and server code).
+local/haskell-http2 3.0.2-81
+    HTTP/2 library
+local/haskell-hunit 1.6.2.0-90
+    A unit testing framework for Haskell
+local/haskell-ieee754 0.8.0-23
+    Utilities for dealing with IEEE floating point numbers
+local/haskell-implicit-hie 0.1.2.6-71
+    Auto generate hie-bios cradles & hie.yaml
+local/haskell-implicit-hie-cradle 0.3.0.5-91
+    Auto generate hie-bios cradles
 local/haskell-indexed-traversable 0.1.2-2
     FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
+local/haskell-indexed-traversable-instances 0.1.1-4
+    More instances of FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
 local/haskell-infer-license 0.2.0-180
     Infer software license from a given license file
 local/haskell-integer-logarithms 1.0.3.1-6
     Integer logarithms
+local/haskell-invariant 0.5.5-15
+    Haskell98 invariant functors
 local/haskell-iproute 1.7.12-9
     IP Routing Table
 local/haskell-ipynb 0.1.0.1-283
     Data structure for working with Jupyter notebooks (ipynb)
 local/haskell-jira-wiki-markup 1.4.0-44
     Handle Jira wiki markup
+local/haskell-js-dgtable 0.5.2-13
+    Obtain minified jquery.dgtable code
+local/haskell-js-flot 0.8.3-24
+    Obtain minified flot code
+local/haskell-js-jquery 3.3.1-763
+    Obtain minified jQuery code
+local/haskell-json 0.10-83
+    Support for serialising Haskell to and from JSON
 local/haskell-juicypixels 3.3.6-21
     Picture loading/serialization (in png, jpeg, bitmap, gif, tga, tiff and radiance)
+local/haskell-kan-extensions 5.2.3-46
+    Kan extensions, Kan lifts, the Yoneda lemma, and (co)density (co)monads
+local/haskell-language-server 1.3.0.0-112
+    LSP server for GHC
+local/haskell-lens 5.1-15
+    Lenses, Folds and Traversals
+local/haskell-libffi 0.1-27
+    A binding to libffi
 local/haskell-libyaml 0.1.2-198
     Low-level, streaming YAML interface.
 local/haskell-lift-type 0.1.0.1-4
@@ -1216,6 +1666,20 @@ local/haskell-lifted-async 0.10.2.2-15
     Run lifted IO operations asynchronously and wait for their results
 local/haskell-lifted-base 0.2.3.12-198
     lifted IO operations from the base library
+local/haskell-list-t 1.0.5-12
+    ListT done right
+local/haskell-listlike 4.7.6-28
+    Generic support for list-like structures
+local/haskell-logict 0.7.1.0-110
+    A backtracking logic-programming monad.
+local/haskell-lsp 1.2.0.1-62
+    Haskell library for the Microsoft Language Server Protocol
+local/haskell-lsp-test 0.14.0.1-66
+    Functional test framework for LSP servers.
+local/haskell-lsp-types 1.3.0.1-52
+    Haskell library for the Microsoft Language Server Protocol, data types
+local/haskell-lucid 2.11.0-13
+    Clear to write, read and edit DSL for HTML
 local/haskell-lukko 0.1.1.3-70
     Access to platform dependent file locking APIs
 local/haskell-megaparsec 9.2.0-24
@@ -1224,50 +1688,82 @@ local/haskell-memory 0.16.0-49
     memory and related abstraction stuff
 local/haskell-microlens 0.4.12.0-5
     A tiny lens library with no dependencies
+local/haskell-microlens-ghc 0.4.13.1-1
+    microlens + array, bytestring, containers, transformers
 local/haskell-microlens-mtl 0.2.0.1-17
     microlens support for Reader/Writer/State from mtl
+local/haskell-microlens-platform 0.4.2.1-12
+    microlens + all batteries included (best for apps)
 local/haskell-microlens-th 0.4.3.10-5
     Automatic generation of record lenses for microlens
 local/haskell-mime-types 0.1.0.9-14
     Basic mime-type handling types and functions
 local/haskell-mintty 0.1.3-2
     A reliable way to detect the presence of a MinTTY console on Windows
+local/haskell-mmap 0.5.9-25
+    Memory mapped files for POSIX and Windows
+local/haskell-mmorph 1.2.0-4
+    Monad morphisms
 local/haskell-monad-control 1.0.3.1-33
     Lift control operations, like exception catching, through monad transformers
+local/haskell-monad-dijkstra 0.1.1.3-196
+    A monad transformer for weighted graph searches
 local/haskell-monad-logger 0.3.36-174
     A class of monads which can log messages.
 local/haskell-monad-loops 0.4.3-25
     Monadic loops
+local/haskell-monadrandom 0.5.3-50
+    Random-number generation monad.
 local/haskell-mono-traversable 1.0.15.3-32
     Type classes for mapping, folding, and traversing monomorphic containers
+local/haskell-monoid-subclasses 1.1.3-7
+    Subclasses of Monoid
+local/haskell-murmur-hash 0.1.0.10-2
+    MurmurHash2 implementation for Haskell.
 local/haskell-mustache 2.4.0-5
     A mustache template parser library.
 local/haskell-neat-interpolation 0.5.1.3-16
     A quasiquoter for neat and simple multiline text interpolation
 local/haskell-network 3.1.2.7-9
     Low-level networking interface
+local/haskell-network-bsd 2.8.1.0-137
+    POSIX network database (<netdb.h>) API
+local/haskell-network-byte-order 0.1.6-109
+    Network byte order utilities
+local/haskell-network-info 0.2.1-1
+    Access the local computer\'s basic network configuration
 local/haskell-network-uri 2.6.4.1-66
     A library for client-side HTTP
 local/haskell-old-locale 1.0.0.7-30
     This package provides the ability to adapt to locale conventions such as date and time formats.
 local/haskell-old-time 1.1.0.3-30
     This package provides the ability to adapt to locale conventions such as date and time formats.
+local/haskell-onetuple 0.3.1-6
+    Singleton Tuple
 local/haskell-only 0.1-22
     The 1-tuple type or single-value "collection"
 local/haskell-open-browser 0.2.1.0-28
     Open a web browser from Haskell.
+local/haskell-opentelemetry 0.7.0-43
+    The OpenTelemetry Haskell Client
 local/haskell-optparse-applicative 0.16.1.0-210
     Utilities and combinators for parsing command line options
 local/haskell-optparse-generic 1.4.7-18
     Auto-generate a command-line parser for your datatype
 local/haskell-optparse-simple 0.1.1.4-98
     Simple interface to optparse-applicative
+local/haskell-ormolu 0.2.0.0-53
+    A formatter for Haskell source code
 local/haskell-pandoc-types 1.22-142
     Types for representing a structured document
 local/haskell-pantry 0.5.2.3-126
     Content addressable Haskell package management
+local/haskell-parallel 3.2.2.0-17
+    Parallel programming library
 local/haskell-parser-combinators 1.3.0-4
     Lightweight package providing commonly useful parser combinators
+local/haskell-parsers 0.12.10-209
+    Parsing combinators
 local/haskell-path 0.9.2-19
     Path
 local/haskell-path-io 1.6.3-62
@@ -1282,24 +1778,54 @@ local/haskell-persistent-sqlite 2.13.0.3-109
     Backend for the persistent library using sqlite3
 local/haskell-persistent-template 2.9.1.0-96
     Type-safe, non-relational, multi-backend persistence
+local/haskell-polyparse 1.13-11
+    A variety of alternative parser combinator libraries.
+local/haskell-pretty-simple 4.0.0.0-138
+    Pretty printer for data types with a 'Show' instance
+local/haskell-prettyprinter 1.7.1-33
+    A modern, easy to use, well-documented, extensible prettyprinter.
+local/haskell-prettyprinter-ansi-terminal 1.1.3-35
+    ANSI terminal backend for the prettyprinter package.
+local/haskell-primes 0.2.1.0-23
+    Efficient, purely functional generation of prime numbers
 local/haskell-primitive 0.7.3.0-24
     Wrappers for primitive operations
+local/haskell-process-extras 0.7.4-230
+    Process extras
 local/haskell-profunctors 5.6.2-71
     Profunctors
 local/haskell-project-template 0.2.1.0-188
     Specify Haskell project templates and generate files
+local/haskell-psqueues 0.2.7.3-13
+    Pure priority search queues
 local/haskell-quickcheck 2.14.2-275
     Automatic testing of Haskell programs
 local/haskell-random 1.2.1-63
     Pseudo-random number generation
+local/haskell-random-shuffle 0.0.4-111
+    Random shuffle implementation.
+local/haskell-refact 0.3.0.2-25
+    Specify refactorings to perform with apply-refact
+local/haskell-reflection 2.1.6-127
+    Reifies arbitrary terms into types that can be reflected back into terms
 local/haskell-regex-applicative 0.3.4-124
     Regex-based parsing with applicative interface
 local/haskell-regex-applicative-text 0.1.0.1-144
     Wrapped regex-applicative primitives to work with Text
+local/haskell-regex-base 0.94.0.2-2
+    Common "Text.Regex.*" API for Regex matching
+local/haskell-regex-posix 0.96.0.1-3
+    POSIX Backend for Text.Regex (regex-base)
+local/haskell-regex-tdfa 1.3.1.2-4
+    Pure Haskell Tagged DFA Backend for Text.Regex (regex-base)
+local/haskell-resolv 0.1.2.0-132
+    Domain Name Service (DNS) lookup via the libresolv standard library routines
 local/haskell-resource-pool 0.2.3.2-227
     A high-performance striped resource pooling implementation
 local/haskell-resourcet 1.2.4.3-33
     Deterministic allocation and freeing of scarce resources.
+local/haskell-retrie 1.1.0.0-13
+    A powerful, easy-to-use codemodding tool for Haskell.
 local/haskell-retry 0.9.1.0-7
     Retry combinators for monadic actions that may fail
 local/haskell-rio 0.1.21.0-43
@@ -1308,6 +1834,8 @@ local/haskell-rio-orphans 0.1.2.0-105
     Orphan instances for the RIO type in the rio package
 local/haskell-rio-prettyprint 0.1.1.0-188
     Pretty-printing for RIO
+local/haskell-rope-utf16-splay 0.3.2.0-68
+    Ropes optimised for updating using UTF-16 code units and row/column pairs
 local/haskell-safe 0.3.19-8
     Library of safe (exception free) functions
 local/haskell-safe-exceptions 0.1.7.2-36
@@ -1318,24 +1846,42 @@ local/haskell-semigroupoids 5.3.7-13
     Semigroupoids: Category sans id
 local/haskell-sha 1.6.4.4-19
     Implementations of the SHA suite of message digest functions
+local/haskell-shake 0.19.5-105
+    Build system library, like Make, but more accurate dependencies.
 local/haskell-shelly 1.9.0-133
     Shell-like (systems) programming in Haskell
 local/haskell-silently 1.2.5.2-2
     Prevent or capture writing to stdout and other handles.
+local/haskell-simple-sendfile 0.2.30-256
+    Cross platform library for the sendfile system call
 local/haskell-skylighting 0.11-76
     Syntax highlighting library
 local/haskell-skylighting-core 0.11-79
     Syntax highlighting library
 local/haskell-socks 0.6.1-160
     Socks proxy (version 5) implementation.
+local/haskell-some 1.0.3-4
+    Existential type: Some
+local/haskell-sorted-list 0.2.1.0-9
+    Type-enforced sorted lists and related functions
 local/haskell-split 0.2.3.4-176
     Combinator library for splitting lists.
 local/haskell-splitmix 0.1.0.4-38
     Fast Splittable PRNG
+local/haskell-sqlite-simple 0.4.18.0-78
+    Mid-Level SQLite client library
+local/haskell-src-exts 1.23.1-133
+    Manipulating Haskell source: abstract syntax, lexer, parser, and pretty-printer
 local/haskell-statevar 1.2.2-2
     State variables
 local/haskell-stm-chans 3.0.0.6-2
     Additional types of channels for STM.
+local/haskell-stmonadtrans 0.4.6-29
+    A monad transformer version of the ST monad
+local/haskell-storable-record 0.0.6-33
+    Elegant definition of Storable instances for records
+local/haskell-storable-tuple 0.0.3.3-201
+    Storable instance for pairs and triples
 local/haskell-streaming-commons 0.2.2.4-4
     Common lower-level functions needed by various streaming data libraries
 local/haskell-strict 0.4.0.1-100
@@ -1354,6 +1900,8 @@ local/haskell-tar-conduit 0.3.2-276
     Extract and create tar files using conduit for streaming
 local/haskell-temporary 1.3-363
     Portable temporary file and directory support
+local/haskell-terminal-size 0.3.2.1-24
+    Get terminal window height and width
 local/haskell-texmath 0.12.3.2-17
     Conversion between formats used to represent mathematics.
 local/haskell-text-conversions 0.3.1-114
@@ -1368,6 +1916,8 @@ local/haskell-th-compat 0.1.3-28
     Backward- (and forward-)compatible Quote and Code types
 local/haskell-th-expand-syns 0.4.9.0-15
     Expands type synonyms in Template Haskell ASTs
+local/haskell-th-extras 0.0.0.6-5
+    A grab bag of functions for use with Template Haskell
 local/haskell-th-lift 0.8.2-11
     Derive Template Haskell's Lift class for datatypes.
 local/haskell-th-lift-instances 0.1.19-17
@@ -1378,8 +1928,12 @@ local/haskell-these 1.1.1.1-127
     An either-or-both data type
 local/haskell-time-compat 1.9.6.1-28
     Compatibility package for time
+local/haskell-time-manager 0.0.0-218
+    Scalable timer
 local/haskell-tls 1.5.7-10
     TLS/SSL protocol native implementation (Server and Client)
+local/haskell-tls-session-manager 0.0.4-229
+    In-memory TLS session manager
 local/haskell-transformers-base 0.4.6-33
     Lift computations from the bottom of a transformer stack
 local/haskell-transformers-compat 0.7.1-2
@@ -1406,16 +1960,38 @@ local/haskell-unliftio-core 0.2.0.1-9
     The MonadUnliftIO typeclass for unlifting monads to IO
 local/haskell-unordered-containers 0.2.16.0-5
     Efficient hashing-based container types
+local/haskell-uri-encode 1.5.0.7-140
+    Unicode aware uri-encoding
 local/haskell-utf8-string 1.0.2-81
     Support for reading and writing UTF8 Strings
+local/haskell-utility-ht 0.0.16-57
+    Various small helper functions for Lists, Maybes, Tuples, Functions
+local/haskell-uuid 1.3.15-55
+    For creating, comparing, parsing and printing Universally Unique Identifiers
 local/haskell-uuid-types 1.0.5-48
     Type definitions for Universally Unique Identifiers
+local/haskell-vault 0.3.1.5-67
+    A persistent store for values of arbitrary types
 local/haskell-vector 0.12.3.1-54
     Efficient Arrays
 local/haskell-vector-algorithms 0.8.0.4-96
     Efficient algorithms for vector arrays
+local/haskell-vector-binary-instances 0.2.5.2-49
+    Instances of Data.Binary for vector
 local/haskell-void 0.7.3-134
     A Haskell 98 logically uninhabited data type
+local/haskell-wai 3.2.3-100
+    Web Application Interface.
+local/haskell-wai-extra 3.1.8-48
+    Provides some basic WAI handlers and middleware.
+local/haskell-wai-logger 2.3.7-89
+    A logging system for WAI
+local/haskell-warp 3.3.19-11
+    A fast, light-weight web server for WAI applications.
+local/haskell-warp-tls 3.3.2-71
+    HTTP over TLS support for Warp via the TLS package
+local/haskell-word8 0.1.3-22
+    Word8 library
 local/haskell-x509 1.7.5-192
     X509 reader and writer
 local/haskell-x509-store 1.6.9-7
@@ -1430,12 +2006,16 @@ local/haskell-xml-conduit 1.9.1.1-87
     Pure-Haskell utilities for dealing with XML with the conduit package.
 local/haskell-xml-types 0.3.8-8
     Basic types for representing XML
+local/haskell-xss-sanitize 0.3.7-30
+    sanitize untrusted HTML to prevent XSS attacks
 local/haskell-yaml 0.11.8.0-4
     Support for parsing and rendering YAML documents.
 local/haskell-zip-archive 0.4.1-163
     Library for creating and modifying zip archives.
 local/haskell-zlib 0.6.2.3-64
     Compression and decompression in the gzip and zlib formats
+local/hasktags 0.71.2-218
+    Produces ctags "tags" and etags "TAGS" files for Haskell programs
 local/hdf5 1.12.1-1
     General purpose library and file format for storing scientific data
 local/hdparm 9.63-2
@@ -1450,6 +2030,12 @@ local/highlight 4.1-1
     Fast and flexible source code highlighter (CLI version)
 local/hiredis 1.0.2-1
     Minimalistic C client library for Redis
+local/hlint 3.3.1-73
+    Source code suggestions
+local/hollywood 1.21-6
+    Fill your console with Hollywood melodrama technobabble.
+local/hoogle 5.0.18.2-79
+    Haskell API Search
 local/hplip 1:3.22.2-1
     Drivers for HP DeskJet, OfficeJet, Photosmart, Business Inkjet and some LaserJet
 local/html-xml-utils 8.3-1
@@ -1478,12 +2064,16 @@ local/hyphen 2.8.8-3
     library for high quality hyphenation and justification
 local/iana-etc 20220205-1
     /etc/protocols and /etc/services provided by IANA
+local/iat 0.1.7-4
+    Detects and converts DVD/CD images from BIN/MDF/PDI/CDI/NRG/B5I to ISO-9660
 local/ibus 1.5.25-5
     Next Generation Input Bus for Linux
 local/icoutils 0.32.3-3
     Extracts and converts images in MS Windows(R) icon and cursor files.
 local/icu 70.1-1
     International Components for Unicode library
+local/idris 1.3.3-334
+    Functional Programming Language with Dependent Types
 local/idris2 0.5.1-2
     Funtional Programming Lanugage with Dependent Types
 local/ijs 0.35-3
@@ -1510,7 +2100,7 @@ local/inter-font 3.19-2
     A typeface specially designed for user interfaces
 local/intltool 0.51.0-6
     The internationalization tool collection
-local/inxi 3.3.13.1-1
+local/inxi 3.3.14.1-1
     Full featured CLI system information tool
 local/ion-git r2133.df99347-1
     The Ion Shell. Compatible with Redox and Linux. (Git version)
@@ -1550,12 +2140,14 @@ local/jdk8-openjdk 8.332.u04-1
     OpenJDK Java 8 development kit
 local/jemalloc 1:5.2.1-6
     General-purpose scalable concurrent malloc implementation
-local/jetbrains-toolbox 1.22.10970-1
+local/jetbrains-toolbox 1.23.11680-1
     Manage all your JetBrains Projects and Tools
 local/jfsutils 1.1.15-7
     JFS filesystem utilities
-local/joker-bin 0.18.0-1
+local/joker-bin 1.0.0-1
     A Clojure interpreter and linter written in Go - Precompiled binary from official repository.
+local/jp2a 1.1.1-1
+    A small utility for converting JPG images to ASCII
 local/jq 1.6-4
     Command-line JSON processor
 local/jre-openjdk 17.0.3.u3-1
@@ -1614,6 +2206,8 @@ local/kded 5.91.0-1 (kf5)
     Extensible deamon for providing system level services
 local/kernel-alive 0.5.1-1
     Back up modules of current kernel to prevent some issues after kernel update
+local/keystone 0.9.2-2
+    Lightweight multi-platform, multi-architecture assembler framework
 local/keyutils 1.6.3-1
     Linux Key Management Utilities
 local/kglobalaccel 5.91.0-1 (kf5)
@@ -1632,6 +2226,12 @@ local/kitemmodels 5.91.0-1 (kf5)
     Models for Qt Model/View system
 local/kitemviews 5.91.0-1 (kf5)
     Widget addons for Qt Model/View
+local/kitty 0.24.4-1
+    A modern, hackable, featureful, OpenGL-based terminal emulator
+local/kitty-shell-integration 0.24.4-1
+    Shell integration scripts for kitty, an OpenGL-based terminal emulator
+local/kitty-terminfo 0.24.4-1
+    Terminfo for kitty, an OpenGL-based terminal emulator
 local/kjobwidgets 5.91.0-1 (kf5)
     Widgets for tracking KJob instances
 local/kjs 5.91.0-1 (kf5-aids)
@@ -1670,6 +2270,8 @@ local/l-smash 2.14.5-2
     MP4 muxer and other tools
 local/lame 3.100-3
     A high quality MPEG Audio Layer III (MP3) encoder
+local/languagetool 5.6-1
+    An open source language checker
 local/lapack 3.10.0-1
     Linear Algebra PACKage
 local/lazydocker 0.12-1
@@ -2068,6 +2670,8 @@ local/libbs2b 3.1.0-7
     Bauer stereophonic-to-binaural DSP effect library
 local/libbsd 0.11.5-1
     Provides useful functions commonly found on BSD systems like strlcpy()
+local/libburn 1.5.4-1
+    Library for reading, mastering and writing optical discs
 local/libbytesize 2.6-3
     A tiny library providing a C "class" for working with arbitrary big sizes in bytes
 local/libcaca 0.99.beta20-1
@@ -2278,6 +2882,10 @@ local/libiptcdata 1.0.4-5
     Library for manipulating the IPTC metadata
 local/libisl 0.24-4
     Library for manipulating sets and relations of integer points bounded by linear constraints
+local/libisoburn 1.5.4-2
+    frontend for libraries libburn and libisofs
+local/libisofs 1.5.4-1
+    Library to pack up hard disk files and directories into a ISO 9660 disk image
 local/libixion 0.17.0-1
     A general purpose formula parser & interpreter
 local/libjcat 0.1.9-1
@@ -2754,6 +3362,8 @@ local/linux510-headers 5.10.105-1
     Header files and scripts for building modules for Linux510 kernel
 local/linux510-nvidia 510.54-7 (linux510-extramodules)
     NVIDIA drivers for linux.
+local/linux510-virtualbox-host-modules 6.1.32-15 (linux510-extramodules)
+    Host kernel modules for VirtualBox
 local/linux515-rt 5.15.27_rt35-1
     The Linux515-rt kernel and modules
 local/linux515-rt-virtualbox-host-modules 6.1.32-12 (linux515-rt-extramodules)
@@ -2906,6 +3516,8 @@ local/mariadb-clients 10.7.3-1
     MariaDB client tools
 local/mariadb-libs 10.7.3-1
     MariaDB libraries
+local/marisa 0.2.6-8
+    Static and space-efficient trie data structure library
 local/masscan 1.3.2-1
     TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes
 local/matcha-gtk-theme 20211225-1
@@ -2978,8 +3590,6 @@ local/mkinitcpio-busybox 1.35.0-1
     Base initramfs tools
 local/mkinitcpio-openswap 0.1.0-3
     mkinitcpio hook to open swap at boot time
-local/mlocate 0.26.git.20170220-7
-    Merging locate/updatedb implementation
 local/mobile-broadband-provider-info 20210805-1
     Network Management daemon
 local/mod_dnssd 0.6-8
@@ -2990,10 +3600,12 @@ local/mongo-c-driver 1.21.1-1
     A client library written in C for MongoDB
 local/mongodb-bin 5.0.6-1
     A high-performance, open source, schema-free document-oriented database
-local/mongodb-compass 1.30.1-1
+local/mongodb-compass 1.31.0-1
     The MongoDB GUI
 local/mongodb-tools-bin 100.5.2-1
     The MongoDB tools provide import, export, and diagnostic capabilities.
+local/moreutils 0.67-2
+    A growing collection of the unix tools that nobody thought to write thirty years ago
 local/mosh 1.3.2-16
     Mobile shell, surviving disconnects with local echo and line editing
 local/mousetweaks 3.32.0-2
@@ -3012,6 +3624,8 @@ local/msgpack-c 4.0.0-1
     An efficient object serialization library
 local/mtdev 1.1.6-1
     A stand-alone library which transforms all variants of kernel MT events to the slotted type B protocol
+local/mtools 1:4.0.38-1
+    A collection of utilities to access MS-DOS disks
 local/mu 1.6.10-1
     Maildir indexer/searcher and Emacs client (mu4e)
 local/mujs 1.2.0-2
@@ -3108,12 +3722,16 @@ local/nm-connection-editor 1.24.0-1
     NetworkManager GUI connection editor and widgets
 local/nmap 7.92-1
     Utility for network discovery and security auditing
+local/nnn 4.4-1
+    The fastest terminal file manager ever written.
 local/node-gyp 9.0.0-1
     Node.js native addon build tool
-local/nodejs-lts-erbium 12.22.10-1
-    Evented I/O for V8 javascript (LTS release: Erbium)
+local/nodejs 17.7.1-1
+    Evented I/O for V8 javascript
 local/nodejs-nopt 5.0.0-2
     Node/npm Option Parsing library
+local/nodejs-webpack 5.71.0-1
+    JavaScript bundler (CommonJs, AMD, ES6 modules, CSS, Images, JSON, CoffeeScript, LESS)
 local/noto-fonts 20201226-2
     Google Noto TTF fonts
 local/noto-fonts-compat 20151217-1
@@ -3172,6 +3790,8 @@ local/openbsd-netcat 1.218_2-1
     TCP/IP swiss army knife. OpenBSD variant.
 local/opencascade 1:7.5.3-2
     SDK intended for development of applications dealing with 3D CAD data
+local/opencc 1.1.2-3
+    Library for Open Chinese Convert
 local/opencl-nvidia 510.54-1
     OpenCL implemention for NVIDIA
 local/opencollada 1:1.6.68-2
@@ -3340,8 +3960,14 @@ local/perl-capture-tiny 0.48-5
     Capture STDOUT and STDERR from Perl, XS or external programs
 local/perl-clone 0.45-3
     Recursive copy of nested objects.
+local/perl-common-sense 3.75-3
+    Implements some sane defaults for Perl programs
 local/perl-dbi 1.643-3
     Database independent interface for Perl
+local/perl-digest-hmac 1.04-2
+    Perl Module: Keyed-Hashing for Message Authentication.
+local/perl-digest-sha1 2.13-16
+    Perl interface to the SHA-1 Algorithm
 local/perl-encode-locale 1.05-8
     Determine the locale encoding
 local/perl-error 0.17029-3
@@ -3372,12 +3998,22 @@ local/perl-http-negotiate 6.01-9
     Choose a variant to serve
 local/perl-image-exiftool 12.30-1
     Reader and rewriter of EXIF informations that supports raw files
+local/perl-importer 0.026-2
+    Alternative but compatible interface to modules that export symbols.
+local/perl-inc-latest 0.500-8
+    Build, test, and install Perl modules
 local/perl-io-html 1.004-2
     Open an HTML file with automatic charset detection
 local/perl-io-socket-ssl 2.074-1
     Nearly transparent SSL encapsulation for IO::Socket::INET
 local/perl-io-tty 1.16-2
     Provide an interface to TTYs and PTYs
+local/perl-ipc-run 20180523.0-2
+    IPC::Run - system() and background procs w/ piping, redirs, ptys
+local/perl-json 4.05-1
+    JSON (JavaScript Object Notation) encoder/decoder
+local/perl-json-xs 4.03-2
+    JSON::XS - JSON serialising/deserialising, done correctly and fast
 local/perl-libwww 6.58-1
     The World-Wide Web library for Perl
 local/perl-list-moreutils 0.430-2
@@ -3390,22 +4026,50 @@ local/perl-lwp-protocol-https 6.10-2
     Provide https support for LWP::UserAgent
 local/perl-mailtools 2.21-5
     Various e-mail related modules
+local/perl-mediawiki-api 0.52-2
+    Perl interface to the MediaWiki API
 local/perl-mime-charset 1.012.2-8
     Charset Information for MIME
+local/perl-module-build 0.4231-5
+    Build, test, and install Perl modules
+local/perl-module-pluggable 5.2-7
+    automatically give your module the ability to have plugins
+local/perl-net-dns 1.33-1
+    Perl Module: Interface to the DNS resolver
 local/perl-net-http 6.22-1
     Low-level HTTP connection (client)
+local/perl-net-ip 1.26-9
+    Perl Module: Easy manipulation of IPv4 and IPv6 addresses
+local/perl-net-netmask 1.9104-2
+    Parse, manipulate and lookup IP network blocks.
 local/perl-net-ssleay 1.90-2
     Perl extension for using OpenSSL
 local/perl-path-tiny 0.122-1
     File path utility
+local/perl-scope-guard 0.21-4
+    Lexically-scoped resource management
+local/perl-string-random 0.32-1
+    Perl module to generate random strings based on a pattern
+local/perl-sub-info 0.002-8
+    Tool for inspecting subroutines.
 local/perl-term-readline-gnu 1.42-1
     GNU Readline XS library wrapper
 local/perl-term-shellui 0.92-4
     A fully-featured shell-like command line environment
+local/perl-term-table 0.016-1
+    Format a header and rows into a table
+local/perl-test-useallmodules 0.17-1
+    do use_ok() for all the MANIFESTed modules
+local/perl-test2-suite 0.000144-1
+    Distribution with a rich set of tools built upon the Test2 framework.
+local/perl-time-duration 1:1.20-4
+    rounded or exact English expression of durations
 local/perl-timedate 2.33-3
     Date formating subroutines
 local/perl-try-tiny 0.31-1
     Minimal try/catch with proper localization of $@
+local/perl-types-serialiser 1.0-7
+    simple data types for common serialisation formats
 local/perl-unicode-linebreak 2019.001-4
     UAX #14 Unicode Line Breaking Algorithm
 local/perl-uri 5.10-1
@@ -3428,7 +4092,7 @@ local/perl-yaml-tiny 1.73-5
     Read/Write YAML files with as little code as possible
 local/pigz 2.7-1
     Parallel implementation of the gzip file compressor
-local/pijul 1.0.0.beta-1
+local/pijul 1.0.0.beta-2
     A sound and fast distributed version control system
 local/pinentry 1.2.0-1
     Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
@@ -3446,6 +4110,8 @@ local/pkgfile 21-2
     a pacman .files metadata explorer
 local/playonlinux 4.3.4-4
     GUI for managing Windows programs under linux
+local/plocate 1.1.15-2
+    Alternative to locate, faster and compatible with mlocate's database.
 local/plotutils 2.6-10
     Set of utilities and libraries for plotting.
 local/plymouth 22.02.122-4
@@ -3828,7 +4494,7 @@ local/python-lxml 4.7.1-1
     Python3 binding for the libxml2 and libxslt libraries
 local/python-mako 1.1.6-3
     A super-fast templating language that borrows the best ideas from the existing templating languages
-local/python-manjaro-sdk 0.7-1
+local/python-manjaro-sdk 0.8-1
     Manjaro SDK, Python library for easy access to any Manjaro tools or Libs.
 local/python-markdown 3.3.6-3
     Python implementation of John Gruber's Markdown.
@@ -4106,6 +4772,8 @@ local/python-stack-data 0.2.0-1
     Extract data from python stack frames and tracebacks for informative displays
 local/python-stevedore 3.5.0-3
     Manage dynamic plugins for Python applications
+local/python-systemd 234-11
+    Python bindings for systemd
 local/python-tabulate 0.8.9-4
     Pretty-print tabular data in Python, a library and a command-line utility.
 local/python-termcolor 1.1.0-12
@@ -4142,6 +4810,8 @@ local/python-url-normalize 1.4.3-16
     URL normalization for Python
 local/python-urllib3 1.26.8-1
     HTTP library with thread-safe connection pooling and file post support
+local/python-urwid 2.1.2-3
+    Curses-based user interface library
 local/python-virtualenv 20.11.0-1
     Virtual Python Environment builder
 local/python-wcwidth 0.2.5-6
@@ -4202,8 +4872,8 @@ local/python2-packaging 20.9-7
     Core utilities for Python packages
 local/python2-pathlib2 2.3.6-1
     Object-oriented filesystem paths
-local/python2-pillow 6.2.2-1
-    Python Imaging Library (PIL) fork.
+local/python2-pillow 6.2.2-2
+    Python Imaging Library (PIL) fork
 local/python2-pluggy 0.13.1-4
     Plugin and hook calling mechanisms for python
 local/python2-py 1.10.0-1
@@ -4386,6 +5056,8 @@ local/sane 1.1.1-1
     Scanner Access Now Easy
 local/sbc 1.5-2
     Bluetooth Subband Codec (SBC) library
+local/sbcl 2.2.2-1
+    Steel Bank Common Lisp
 local/sbt 1:1.6.0-1
     The interactive build tool
 local/scala 2.13.7-1
@@ -4486,8 +5158,10 @@ local/source-highlight 3.1.9-7
     Convert source code to syntax highlighted document
 local/spandsp 0.0.6-3
     A DSP library for telephony
-local/spectre-meltdown-checker 0.44+18+g16f2160-1
+local/spectre-meltdown-checker 0.45-1
     Spectre, Meltdown, Foreshadow, Fallout, RIDL, ZombieLoad vulnerability/mitigation checker
+local/speedometer 2.8-4
+    Measure and display the rate of data across a network connection or data being stored in a file
 local/speex 1.2.0-3
     A free codec for free speech
 local/speexdsp 1.2.0-2
@@ -4532,6 +5206,8 @@ local/stoken 0.92-4
     RSA SecurID-compatible software token for Linux/UNIX systems
 local/strace 5.16-1
     A diagnostic, debugging and instructional userspace tracer
+local/stylish-haskell 0.12.2.0-124
+    Haskell code prettifier
 local/sublime-text-4 4.4126-1
     Sophisticated text editor for code, html and prose - stable build
 local/subliminal 2.1.0-1
@@ -4956,6 +5632,8 @@ local/tree 2.0.2-1
     A directory listing program displaying a depth indented list of files
 local/tree-sitter 0.20.6-1
     An incremental parsing system for programming tools
+local/ts-node 10.7.0-1
+    TypeScript execution and REPL for node.js, with source map support
 local/tslib 1.22-1
     Touchscreen Access Library
 local/ttc-iosevka-aile 15.0.2-1
@@ -5084,6 +5762,8 @@ local/ttf-ubuntu-font-family 0.83-8
     Ubuntu font family
 local/twolame 0.4.0-2
     An optimized MPEG Audio Layer 2 (MP2) encoder
+local/typescript 4.6.2-1
+    TypeScript is a language for application scale JavaScript development
 local/tzdata 2021e-1
     Sources for time zone and daylight saving time data
 local/uchardet 0.0.7-1
@@ -5098,6 +5778,8 @@ local/unace 2.5-11
     An extraction tool for the proprietary ace archive format
 local/unibilium 2.1.1-1
     A terminfo parsing library
+local/unicorn 1.0.3-4
+    Lightweight, multi-platform, multi-architecture CPU emulator framework based on QEMU
 local/unixodbc 2.3.9-1
     ODBC is an open specification for providing application developers with a predictable API with which to access Data Sources
 local/unrar 1:6.1.6-1
@@ -5124,6 +5806,8 @@ local/v4l-utils 1.22.1-1
     Userspace tools and conversion library for Video 4 Linux
 local/v86d 0.1.10-5.1
     userspace helper for uvesafb that runs x86 code in an emulated environment
+local/vagrant 2.2.19-1
+    Build and distribute virtualized development environments
 local/valgrind 3.18.1-3
     Tool to help find memory-management problems in programs
 local/vamp-plugin-sdk 2.10.0-1 (pro-audio)
@@ -5140,8 +5824,16 @@ local/vino 3.22.0+74+g7a95e10-1 (gnome)
     A VNC server for the GNOME desktop
 local/virglrenderer 0.9.1-1
     A virtual 3D GPU library, that allows the guest operating system to use the host GPU to accelerate 3D rendering
+local/virtualbox 6.1.32-2
+    Powerful x86 virtualization for enterprise as well as home use
+local/virtualbox-ext-vnc 6.1.32-2
+    VirtualBox VNC extension pack
 local/virtualbox-guest-iso 6.1.32-1
     The official VirtualBox Guest Additions ISO image
+local/virtualbox-guest-utils 6.1.32-2
+    VirtualBox Guest userspace utilities
+local/virtualbox-host-dkms 6.1.32-2
+    VirtualBox Host kernel modules sources
 local/virtualbox-sdk 6.1.32-2
     VirtualBox Software Developer Kit (SDK)
 local/visualvm 2.1-1
@@ -5154,6 +5846,12 @@ local/volume_key 0.3.12-7
     A library for manipulating storage volume encryption keys and storing them separately from volumes to handle forgotten passphrases
 local/vpnc 1:0.5.3.r501.r196-1
     VPN client for cisco3000 VPN Concentrators
+local/vscode-css-languageserver 1.65.0-1
+    CSS/LESS/SCSS language server
+local/vscode-html-languageserver 1.65.0-1
+    HTML language server
+local/vscode-json-languageserver 1.65.0-1
+    JSON language server
 local/vte-common 0.66.2-1
     Files shared by VTE libraries
 local/vte3 0.66.2-1
@@ -5222,8 +5920,8 @@ local/wget 1.21.2-1
     Network utility to retrieve files from the Web
 local/which 2.21-5 (base-devel)
     A utility to show the full path of commands
-local/wiki-js 2.5.274-1
-    Wiki.js | A modern, lightweight and powerful wiki app built on Node.js
+local/wikiquote-fortune 1.5-1
+    Generate fortune cookies from Wikiquote
 local/wildmidi 0.4.4-1
     Open Source MIDI Synthesizer
 local/wine 7.4-1
@@ -5286,7 +5984,7 @@ local/xcb-util-xrm 1.3-2
     XCB utility functions for the X resource manager
 local/xclip 0.13-3
     Command line interface to the X11 clipboard
-local/xcursor-breeze 5.11.5-1
+local/xcursor-breeze 5.22.5-1
     KDE5 cursor theme
 local/xdg-dbus-proxy 0.1.3-1
     Filtering proxy for D-Bus connections
@@ -5324,6 +6022,8 @@ local/xf86-video-intel 1:2.99.917+916+g31486f40-2 (xorg-drivers)
     X.org Intel i810/i830/i915/945G/G965+ video drivers
 local/xf86-video-nouveau 1.0.17-2 (xorg-drivers)
     Open Source 3D acceleration driver for nVidia cards
+local/xf86-video-vmware 13.3.0-3 (xorg-drivers)
+    X.org vmware video driver
 local/xfsprogs 5.14.2-1
     XFS filesystem utilities
 local/xjadeo 0.8.10-4
@@ -5438,8 +6138,6 @@ local/zam-plugins 3.14-1 (ladspa-plugins lv2-plugins pro-audio vst-plugins)
     Collection of LADSPA/LV2/VST/JACK audio plugins for high-quality processing
 local/zbar 0.23.1-9
     Application and library for reading bar codes from various sources
-local/zeal 0.6.1-3
-    An offline API documentation browser
 local/zenity 3.41.0-1
     Display graphical dialog boxes from shell scripts
 local/zeromq 4.3.4-2
