@@ -2020,6 +2020,8 @@ local/hdf5 1.12.1-1
     General purpose library and file format for storing scientific data
 local/hdparm 9.63-2
     A shell utility for manipulating Linux IDE drive/driver parameters
+local/helix 0.6.0-1
+    A post-modern modal text editor
 local/helm 3.8.0-1
     The Kubernetes Package Manager
 local/hicolor-icon-theme 0.17-2
@@ -3654,6 +3656,8 @@ local/nautilus-admin 1.1.9+5+ga51885e-1
     Extension for Nautilus to do administrative operations
 local/nautilus-empty-file 1.2-1
     Provides context menu 'New Document' functionality for nautilus
+local/navi 2.19.0-1
+    An interactive cheatsheet tool for the command-line
 local/nccl 2.12.7-1
     Library for NVIDIA multi-GPU and multi-node collective communication primitives
 local/ncdu 2.1-2
@@ -3888,6 +3892,8 @@ local/otf-latinmodern-math 1.959-4
     Improved version of Computer Modern fonts as used in LaTeX – OpenType Math component
 local/otf-overpass 3.0.5-1
     Open source web font family (Open Type Font)
+local/ox G1.04-2
+    An Attribute Grammar Compiling System based on Yacc, Lex, and COx
 local/p11-kit 0.24.1-1
     Loads and enumerates PKCS#11 modules
 local/p7zip 1:17.04-3
@@ -5046,6 +5052,8 @@ local/runc 1.1.0-1
     CLI tool for managing OCI compliant containers
 local/runelite-git 1.8.11+18+gf96f80f2da-1
     Open source Old School RuneScape client. (Git Version)
+local/rustscan 2.0.1-1
+    The Modern Port Scanner
 local/rustup 1.24.3-2
     The Rust toolchain installer
 local/rygel 1:0.40.3-1 (gnome)
