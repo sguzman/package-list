@@ -11,10 +11,15 @@ bingrep v0.10.0:
 bootimage v0.10.3:
     bootimage
     cargo-bootimage
-broot v1.10.0:
+broot v1.11.1:
     broot
 cargo-audit v0.16.0:
     cargo-audit
+cargo-c v0.9.8+cargo-0.60:
+    cargo-capi
+    cargo-cbuild
+    cargo-cinstall
+    cargo-ctest
 cargo-config v0.1.1:
     cargo-config
 cargo-generate v0.13.0:
@@ -56,6 +61,10 @@ git-delta v0.12.1 (https://github.com/dandavison/delta#85a07cd1):
     delta
 gitui v0.20.1:
     gitui
+hck v0.7.1:
+    hck
+helix-term v0.6.0 (https://github.com/helix-editor/helix#78b16009):
+    hx
 hexyl v0.9.0:
     hexyl
 hwatch v0.3.3:
@@ -74,25 +83,38 @@ kondo v0.4.0:
     kondo
 kytan v0.1.1 (https://github.com/changlan/kytan#be6bb64f):
     kytan
-lapce v0.0.10 (https://github.com/lapce/lapce#1bce4358):
+lapce v0.0.12 (https://github.com/lapce/lapce#e6c8c8e2):
     lapce
     lapce-proxy
+licensor v2.1.0:
+    licensor
 lsd v0.21.0:
     lsd
 mcfly v0.6.0:
     mcfly
 mdbook v0.4.17:
     mdbook
+melody_cli v0.13.10:
+    melody
 neovide v0.8.0 (https://github.com/neovide/neovide#9c1481e1):
     neovide
 nu v0.60.0:
     nu
+onehistory v0.2.1:
+    onehistory
+ox v0.2.7 (https://github.com/curlpipe/ox#086f6653):
+    ox
 procs v0.12.1:
     procs
 rargs v0.3.0:
     rargs
+rav1e v0.5.1:
+    rav1e
+    rav1e-ch
 ripgrep v13.0.0:
     rg
+rustscan v2.0.0:
+    rustscan
 sccache v0.2.15:
     sccache
     sccache-dist
@@ -110,7 +132,7 @@ trunk v0.14.0:
     trunk
 trust-dns v0.21.2:
     named
-wasm-bindgen-cli v0.2.79:
+wasm-bindgen-cli v0.2.80:
     wasm-bindgen
     wasm-bindgen-test-runner
     wasm2es6js
@@ -118,7 +140,7 @@ wasm-pack v0.10.2:
     wasm-pack
 watchexec-cli v1.18.11:
     watchexec
-xargo v0.3.20:
+xargo v0.3.25:
     xargo
     xargo-check
 xsv v0.13.0:
