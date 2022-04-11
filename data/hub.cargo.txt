@@ -22,8 +22,22 @@ cargo-c v0.9.8+cargo-0.60:
     cargo-ctest
 cargo-config v0.1.1:
     cargo-config
+cargo-deps v1.4.1:
+    cargo-deps
+cargo-edit v0.9.0:
+    cargo-add
+    cargo-rm
+    cargo-set-version
+    cargo-upgrade
 cargo-generate v0.13.0:
     cargo-generate
+cargo-license v0.4.2:
+    cargo-license
+cargo-make v0.35.10:
+    cargo-make
+    makers
+cargo-tree v0.29.0:
+    cargo-tree
 cargo-update v8.1.2:
     cargo-install-update
     cargo-install-update-config
@@ -45,6 +59,8 @@ drill v0.7.2:
     drill
 du-dust v0.8.0:
     dust
+duckscript_cli v0.8.10:
+    duck
 dura v0.1.0:
     dura
 eidolon v1.4.6:
@@ -86,6 +102,8 @@ kytan v0.1.1 (https://github.com/changlan/kytan#be6bb64f):
 lapce v0.0.12 (https://github.com/lapce/lapce#e6c8c8e2):
     lapce
     lapce-proxy
+launchify v0.3.1:
+    launchify
 licensor v2.1.0:
     licensor
 lsd v0.21.0:
