@@ -358,6 +358,8 @@ local/cryptsetup 2.4.3-2
     Userspace setup tool for transparent encryption of block devices using dm-crypt
 local/csvkit 1.0.6-3
     A suite of utilities for converting to and working with CSV
+local/cuda 11.6.1-1
+    NVIDIA's GPU programming toolkit
 local/cups 1:2.4.1-1
     The CUPS Printing System - daemon package
 local/cups-filters 1.28.12-1
@@ -378,6 +380,8 @@ local/curl 7.82.0-1
     An URL retrieval utility and library
 local/cxxopts 3.0.0-1
     Lightweight C++ command line option parser
+local/dart 2.14.4-1
+    The dart programming language SDK
 local/dasel 1.22.1-1
     Query and update data structures from the command line.
 local/dav1d 0.9.2-1
