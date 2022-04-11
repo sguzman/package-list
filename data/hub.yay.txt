@@ -610,6 +610,8 @@ local/flex 2.6.4-3 (base-devel)
     A tool for generating text-scanning programs
 local/fluidsynth 2.2.5-1 (pro-audio)
     A real-time software synthesizer based on the SoundFont 2 specifications
+local/flutter 2.10.4-1
+    A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android.
 local/fmt 8.1.1-2
     Open-source formatting library for C++
 local/folks 0.15.4-1
