@@ -38,6 +38,8 @@ cargo-make v0.35.10:
     makers
 cargo-tree v0.29.0:
     cargo-tree
+cargo-udeps v0.1.27:
+    cargo-udeps
 cargo-update v8.1.2:
     cargo-install-update
     cargo-install-update-config
@@ -53,6 +55,8 @@ deno v1.20.1:
     deno
 devserver v0.4.1:
     devserver
+diesel_cli v1.4.1:
+    diesel
 diskonaut v0.11.0:
     diskonaut
 drill v0.7.2:
@@ -77,6 +81,8 @@ git-delta v0.12.1 (https://github.com/dandavison/delta#85a07cd1):
     delta
 gitui v0.20.1:
     gitui
+gluesql v0.10.2:
+    gluesql
 hck v0.7.1:
     hck
 helix-term v0.6.0 (https://github.com/helix-editor/helix#78b16009):
@@ -112,7 +118,7 @@ mcfly v0.6.0:
     mcfly
 mdbook v0.4.17:
     mdbook
-melody_cli v0.13.10:
+melody_cli v0.14.2:
     melody
 neovide v0.8.0 (https://github.com/neovide/neovide#9c1481e1):
     neovide
