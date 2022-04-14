@@ -92,6 +92,8 @@ local/apg 2.2.3-5
     Automated Password Generator.
 local/apparmor 3.0.4-1
     Mandatory Access Control (MAC) using Linux Security Module (LSM)
+local/appflowy-bin 0.0.3-1
+    An Open Source Alternative to Notion
 local/appimagelauncher 2.2.0-7
     A Helper application for running and integrating AppImages.
 local/appstream-glib 0.7.18-3
@@ -272,7 +274,7 @@ local/clang 13.0.1-2
     C language family frontend for LLVM
 local/clisp 2.49.93-5
     ANSI Common Lisp interpreter, compiler and debugger
-local/clj-kondo-bin 2022.03.09-1
+local/clj-kondo-bin 2022.04.08-1
     A minimal and opinionated linter for Clojure code that sparks joy.
 local/clojure 1.10.3.1075-1
     Lisp dialect for the JVM
@@ -554,6 +556,8 @@ local/exfat-utils 1.3.0-2
     Utilities for exFAT file system
 local/exiv2 0.27.5-1
     Exif, Iptc and XMP metadata manipulation library and tools
+local/exo 4.16.3-1 (xfce4)
+    Application library for Xfce
 local/expac 10-5
     alpm data (pacman database) extraction utility
 local/expat 2.4.7-1
@@ -600,7 +604,7 @@ local/filesystem 2021.12.07-3
     Base Manjaro Linux files
 local/findutils 4.9.0-1 (base-devel)
     GNU utilities to locate files
-local/firefox 98.0.2-1
+local/firefox 99.0.1-1
     Standalone web browser from mozilla.org
 local/fish 3.3.1-1
     Smart and user friendly shell intended mostly for interactive use
@@ -1062,7 +1066,7 @@ local/gnome-getting-started-docs 3.38.1-1 (gnome)
     Help a new user get started in GNOME
 local/gnome-keyring 1:40.0-1.1 (gnome)
     Stores passwords and encryption keys
-local/gnome-layout-switcher 0.8.25-2
+local/gnome-layout-switcher 0.8.25-3
     A simple gui for choosing gnome desktop layout
 local/gnome-maps 41.4-1 (gnome)
     A simple GNOME 3 maps application
@@ -1138,9 +1142,9 @@ local/gobject-introspection-runtime 1.70.0-5
     Introspection system for GObject-based libraries (runtime library)
 local/gom 0.4-5
     A GObject to SQLite object mapper
-local/google-chrome 100.0.4896.75-1
+local/google-chrome 100.0.4896.88-1
     The popular and trusted web browser by Google (Stable Channel)
-local/google-chrome-dev 102.0.4972.0-1
+local/google-chrome-dev 102.0.4997.0-1
     The popular and trusted web browser by Google (Dev Channel)
 local/googletest-git 1.11.0.r168.gc9461a9b-1
     Google's C++ test framework
@@ -2102,13 +2106,15 @@ local/iniparser 4.1-4
     A free stand-alone ini file parsing library written in portable ANSI C
 local/inkscape 1.1.2-2
     Professional vector graphics editor
+local/innotop 1.13.0-1
+    A powerful "top" clone for MySQL (MariaDB)
 local/intel-mkl 2020.4.304-1
     Intel Math Kernel Library
 local/inter-font 3.19-2
     A typeface specially designed for user interfaces
 local/intltool 0.51.0-6
     The internationalization tool collection
-local/inxi 3.3.14.1-1
+local/inxi 3.3.15.1-1
     Full featured CLI system information tool
 local/ion-git r2133.df99347-1
     The Ion Shell. Compatible with Redox and Linux. (Git version)
@@ -2148,7 +2154,7 @@ local/jdk8-openjdk 8.332.u04-1
     OpenJDK Java 8 development kit
 local/jemalloc 1:5.2.1-6
     General-purpose scalable concurrent malloc implementation
-local/jetbrains-toolbox 1.23.11680-1
+local/jetbrains-toolbox 1.23.11731-1
     Manage all your JetBrains Projects and Tools
 local/jfsutils 1.1.15-7
     JFS filesystem utilities
@@ -2214,6 +2220,8 @@ local/kded 5.91.0-1 (kf5)
     Extensible deamon for providing system level services
 local/kernel-alive 0.5.1-1
     Back up modules of current kernel to prevent some issues after kernel update
+local/kernel-headers-musl 4.19.88-2
+    Linux kernel headers sanitized for use with musl libc
 local/keystone 0.9.2-2
     Lightweight multi-platform, multi-architecture assembler framework
 local/keyutils 1.6.3-1
@@ -3294,6 +3302,10 @@ local/libxdmcp 1.1.3-3
     X11 Display Manager Control Protocol library
 local/libxext 1.3.4-3
     X11 miscellaneous extensions library
+local/libxfce4ui 4.16.1-1
+    Commonly used Xfce widgets among Xfce applications
+local/libxfce4util 4.16.0-1
+    Basic utility non-GUI functions for Xfce
 local/libxfixes 6.0.0-1
     X11 miscellaneous 'fixes' extension library
 local/libxfont2 2.0.5-1
@@ -3378,6 +3390,8 @@ local/linux515-rt-virtualbox-host-modules 6.1.32-12 (linux515-rt-extramodules)
     Host kernel modules for VirtualBox
 local/lirc 1:0.10.1-12
     Linux Infrared Remote Control utilities
+local/litecli 1.8.0-1
+    A command-line client for SQLite databases that has auto-completion and syntax highlighting.
 local/lld 13.0.1-1
     Linker from the LLVM project
 local/lldb 13.0.1-1
@@ -3488,7 +3502,7 @@ local/manjaro-gnome-extension-settings 20220228-1
     Manjaro Linux Gnome extensions settings
 local/manjaro-gnome-postinstall 0.1.1-3
     Postinstall scripts for Gnome
-local/manjaro-gnome-settings 20220228-1
+local/manjaro-gnome-settings 20220228-2
     Manjaro Linux Gnome settings
 local/manjaro-gnome-tour 3.38.0+31+gdf1ba86-1
     A guided tour and greeter for Manjaro GNOME
@@ -3520,6 +3534,8 @@ local/manjaro-wallpapers-18.0 1.4-3
     Official Wallpapers for the Manjarolinux 18.x release
 local/manjaro-zsh-config 0.22-2
     Zsh configuration for manjaro
+local/mariadb 10.7.3-1
+    Fast SQL database server, derived from MySQL
 local/mariadb-clients 10.7.3-1
     MariaDB client tools
 local/mariadb-libs 10.7.3-1
@@ -3606,9 +3622,9 @@ local/modemmanager 1.18.6-1
     Mobile broadband modem management service
 local/mongo-c-driver 1.21.1-1
     A client library written in C for MongoDB
-local/mongodb-bin 5.0.6-1
+local/mongodb-bin 5.0.7-1
     A high-performance, open source, schema-free document-oriented database
-local/mongodb-compass 1.31.0-1
+local/mongodb-compass 1.31.1-1
     The MongoDB GUI
 local/mongodb-tools-bin 100.5.2-1
     The MongoDB tools provide import, export, and diagnostic capabilities.
@@ -3650,6 +3666,8 @@ local/mutter 41.4-1 (gnome)
     A window manager for GNOME
 local/mypaint-brushes1 1.3.1-1
     Brushes used by MyPaint and other software using libmypaint (v1.x)
+local/mytop 10.7.3-1
+    Top clone for MariaDB
 local/nano 6.2-1
     Pico editor clone with enhancements
 local/nasm 2.15.05-1
@@ -3678,13 +3696,13 @@ local/neofetch 7.1.0-2
     A CLI system information tool written in BASH that supports displaying images.
 local/neon 0.32.2-1
     HTTP and WebDAV client library with a C interface
-local/neovide-git 0.7.0.r328.g9c1481e-1
+local/neovide-git 0.8.0.r0.g86aa275-1
     No Nonsense Neovim Client in Rust
 local/neovim 0.6.1-2
     Fork of Vim aiming to improve user experience, plugins, and GUIs
 local/nerd-fonts-complete 2.1.0-8
     Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts.
-local/nerd-fonts-noto-sans-mono 2.0.0-1
+local/nerd-fonts-noto-sans-mono 2.1.0-1
     Standard variants of Noto Sans Mono patched with Nerd Fonts.
 local/nerd-fonts-terminus 2.1.0-4
     A Nerd Font patched version of Terminus (Terminess)
@@ -3974,6 +3992,10 @@ local/perl-clone 0.45-3
     Recursive copy of nested objects.
 local/perl-common-sense 3.75-3
     Implements some sane defaults for Perl programs
+local/perl-dbd-mariadb 1.21-2
+    MariaDB and MySQL driver for the Perl5 Database Interface (DBI)
+local/perl-dbd-mysql 4.050-7
+    Perl/CPAN DBD::mysql module for interacting with MySQL via DBD
 local/perl-dbi 1.643-3
     Database independent interface for Perl
 local/perl-digest-hmac 1.04-2
@@ -4064,6 +4086,8 @@ local/perl-string-random 0.32-1
     Perl module to generate random strings based on a pattern
 local/perl-sub-info 0.002-8
     Tool for inspecting subroutines.
+local/perl-term-readkey 2.38-6
+    Provides simple control over terminal driver modes
 local/perl-term-readline-gnu 1.42-1
     GNU Readline XS library wrapper
 local/perl-term-shellui 0.92-4
@@ -4102,6 +4126,8 @@ local/perl-xml-writer 0.625-7
     Module for writing XML documents
 local/perl-yaml-tiny 1.73-5
     Read/Write YAML files with as little code as possible
+local/pgcli 3.4.1-1
+    a command line interface for Postgres with auto-completion and syntax highlighting
 local/pigz 2.7-1
     Parallel implementation of the gzip file compressor
 local/pijul 1.0.0.beta-2
@@ -4190,7 +4216,7 @@ local/ppp 2.4.9-1
     A daemon which implements the Point-to-Point Protocol for dial-up networking
 local/pptpclient 1.10.0-2
     Client for the proprietary Microsoft Point-to-Point Tunneling Protocol, PPTP.
-local/praat 6.2.10-1
+local/praat 6.2.11-1
     A speech analysis tool used for doing phonetics by computer
 local/procmail 3.22-10
     Highly configurable auto mail processing.
@@ -5058,6 +5084,10 @@ local/runc 1.1.0-1
     CLI tool for managing OCI compliant containers
 local/runelite-git 1.8.11+18+gf96f80f2da-1
     Open source Old School RuneScape client. (Git Version)
+local/rust-musl 1:1.59.0-1
+    Musl target for Rust
+local/rust-racer 2.1.41-1
+    Code completion for Rust
 local/rustscan 2.0.1-1
     The Modern Port Scanner
 local/rustup 1.24.3-2
@@ -5594,6 +5624,8 @@ local/thin-provisioning-tools 0.9.0-1
     Suite of tools for manipulating the metadata of the dm-thin device-mapper target
 local/threadweaver 5.91.0-1 (kf5)
     High-level multithreading framework
+local/thunar 4.16.10-1 (xfce4)
+    Modern file manager for Xfce
 local/ticker 4.5.1-0
     Terminal stock ticker with live updates and position tracking
 local/tickrs 2:0.14.4-1
@@ -6038,6 +6070,8 @@ local/xf86-video-nouveau 1.0.17-2 (xorg-drivers)
     Open Source 3D acceleration driver for nVidia cards
 local/xf86-video-vmware 13.3.0-3 (xorg-drivers)
     X.org vmware video driver
+local/xfconf 4.16.0-2 (xfce4)
+    Flexible, easy-to-use configuration management system
 local/xfsprogs 5.14.2-1
     XFS filesystem utilities
 local/xjadeo 0.8.10-4
@@ -6168,7 +6202,7 @@ local/zita-convolver 4.0.3-2
     A fast, partitioned convolution engine library.
 local/zita-resampler 1.8.0-1
     A C++ library for resampling audio signals
-local/zlib 1:1.2.11-5
+local/zlib 1:1.2.12-1
     Compression library implementing the deflate compression method found in gzip and PKZIP
 local/zmap 2.1.1-8
     Fast network scanner designed for Internet-wide network surveys
