@@ -29,7 +29,7 @@ cargo-edit v0.9.0:
     cargo-rm
     cargo-set-version
     cargo-upgrade
-cargo-generate v0.13.0:
+cargo-generate v0.13.1:
     cargo-generate
 cargo-license v0.4.2:
     cargo-license
@@ -38,7 +38,7 @@ cargo-make v0.35.10:
     makers
 cargo-tree v0.29.0:
     cargo-tree
-cargo-udeps v0.1.27:
+cargo-udeps v0.1.28:
     cargo-udeps
 cargo-update v8.1.2:
     cargo-install-update
