@@ -1,0 +1,13 @@
+Legend: production dependency, optional only, dev only
+
+/home/sguzman/.asdf/installs/nodejs/17.9.0/.npm/pnpm-global/5
+
+dependencies:
+@tauri-apps/api 1.0.0-rc.3
+@tauri-apps/cli 1.0.0-rc.8
+create-elm-app 5.22.0
+create-tauri-app 1.0.0-rc.3
+csvtojson 2.0.10
+elm 0.19.1-5
+elm-format 0.8.5
+elm-test 0.19.1-revision7
