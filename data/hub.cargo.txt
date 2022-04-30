@@ -45,13 +45,18 @@ cargo-update v8.1.2:
     cargo-install-update-config
 cargo-watch v8.1.1:
     cargo-watch
+clipcat v0.5.0 (https://github.com/xrelkd/clipcat#21b11922):
+    clipcat-menu
+    clipcat-notify
+    clipcatctl
+    clipcatd
 crabz v0.7.2:
     crabz
 ddh v0.12.0 (https://github.com/darakian/ddh#e4c574ff):
     ddh
 delicate v0.1.0:
     delicate
-deno v1.20.1:
+deno v1.20.6:
     deno
 devserver v0.4.1:
     devserver
@@ -116,13 +121,13 @@ lsd v0.21.0:
     lsd
 mcfly v0.6.0:
     mcfly
-mdbook v0.4.17:
+mdbook v0.4.18:
     mdbook
-melody_cli v0.14.2:
+melody_cli v0.16.0:
     melody
 neovide v0.8.0 (https://github.com/neovide/neovide#9c1481e1):
     neovide
-nu v0.60.0:
+nu v0.61.0:
     nu
 onehistory v0.2.1:
     onehistory
@@ -150,6 +155,10 @@ skim v0.9.4:
     sk
 sonic-server v1.3.2:
     sonic
+tauri-build v0.0.0:
+    tauri-build
+tickrs v0.14.5 (https://github.com/tarkah/tickrs#1c7ffb96):
+    tickrs
 tokei v12.1.2:
     tokei
 trunk v0.14.0:
@@ -162,7 +171,7 @@ wasm-bindgen-cli v0.2.80:
     wasm2es6js
 wasm-pack v0.10.2:
     wasm-pack
-watchexec-cli v1.18.11:
+watchexec-cli v1.19.0:
     watchexec
 xargo v0.3.25:
     xargo
