@@ -1,0 +1,74 @@
+as-tree v0.12.0 (https://github.com/jez/as-tree#0036c20f):
+    as-tree
+asm-cli-rust v0.1.0 (https://github.com/cch123/asm-cli-rust#2c6b4982):
+    asm-cli-rust
+bat v0.22.1:
+    bat
+bingrep v0.10.1:
+    bingrep
+cargo-config v0.1.1:
+    cargo-config
+cargo-shuttle v0.7.2:
+    cargo-shuttle
+cargo-update v11.0.0:
+    cargo-install-update
+    cargo-install-update-config
+cargo-watch v8.1.2:
+    cargo-watch
+coreutils v0.0.16:
+    coreutils
+    uudoc
+ddh v0.12.0 (https://github.com/darakian/ddh#18db05e1):
+    ddh
+deno v1.27.0:
+    deno
+exa v0.10.1:
+    exa
+fd-find v8.5.2 (https://github.com/sharkdp/fd#9e88f91c):
+    fd
+feroxbuster v2.7.1:
+    feroxbuster
+fselect v0.8.1:
+    fselect
+git-delta v0.14.0:
+    delta
+hyperfine v1.15.0:
+    hyperfine
+jujutsu v0.5.1 (https://github.com/martinvonz/jj#c08dbd22):
+    fake-diff-editor
+    fake-editor
+    jj
+kmon v1.6.2:
+    kmon
+lapce v0.2.3 (https://github.com/lapce/lapce#93985380):
+    lapce
+    lapce-proxy
+mcfly v0.6.1:
+    mcfly
+neovide v0.10.3 (https://github.com/neovide/neovide#2c0916e8):
+    neovide
+rustscan v2.1.1:
+    rustscan
+sccache v0.3.0:
+    sccache
+    sccache-dist
+tokei v12.1.2:
+    tokei
+trust-dns v0.22.0:
+    named
+    trust-dns
+vocage v1.1.0:
+    vocage
+wapm-cli v0.5.1:
+    wapm
+wasm-tools v1.0.13:
+    wasm-tools
+wasmtime-cli v4.0.0 (https://github.com/bytecodealliance/wasmtime#b077854b):
+    wasmtime
+xargo v0.3.20:
+    xargo
+    xargo-check
+xsv v0.13.0:
+    xsv
+zoxide v0.8.3:
+    zoxide
