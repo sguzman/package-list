@@ -1,0 +1,107 @@
+alacritty v0.11.0:
+    alacritty
+as-tree v0.12.0 (https://github.com/jez/as-tree#0036c20f):
+    as-tree
+asm-cli-rust v0.1.0 (https://github.com/cch123/asm-cli-rust#9ded257a):
+    asm-cli-rust
+bat v0.22.1:
+    bat
+bingrep v0.10.1:
+    bingrep
+cargo-watch v8.3.0:
+    cargo-watch
+cargo-whatfeatures v0.9.9:
+    cargo-whatfeatures
+clipcat v0.5.0 (https://github.com/xrelkd/clipcat#21b11922):
+    clipcat-menu
+    clipcat-notify
+    clipcatctl
+    clipcatd
+cronify v0.1.0 (https://github.com/sguzman/cronify#72d9bbb8):
+    cronify
+deno v1.29.4:
+    deno
+diskonaut v0.11.0:
+    diskonaut
+drill v0.8.1:
+    drill
+eidolon v1.4.6:
+    eidolon
+enginesound v1.5.3 (https://github.com/DasEtwas/enginesound#a27507ff):
+    enginesound
+exa v0.10.1:
+    exa
+fselect v0.8.1:
+    fselect
+git-delta v0.15.1 (https://github.com/dandavison/delta#ce6448f9):
+    delta
+gitui v0.22.1:
+    gitui
+hexyl v0.12.0:
+    hexyl
+indradb v3.0.4:
+    indradb-server
+jujutsu v0.6.1 (https://github.com/martinvonz/jj#a3d39474):
+    fake-diff-editor
+    fake-editor
+    jj
+kernel v0.1.0 (https://github.com/obhq/obliteration#d886e16d):
+    obliteration-kernel
+kmon v1.6.2:
+    kmon
+lapce v0.2.5 (https://github.com/lapce/lapce#52c01e38):
+    lapce
+    lapce-proxy
+mcfly v0.7.1:
+    mcfly
+mdbook v0.4.25:
+    mdbook
+mz v0.0.0 (https://github.com/MaterializeInc/materialize#de2e6b03):
+    mz
+navi v2.20.1:
+    navi
+ncspot v0.12.0 (https://github.com/hrkfdn/ncspot#7e974bb7):
+    ncspot
+neovide v0.10.3 (https://github.com/neovide/neovide#973d816d):
+    neovide
+nu v0.74.1 (https://github.com/nushell/nushell#8c7e2dbd):
+    nu
+ripgrep v13.0.0:
+    rg
+sccache v0.3.3:
+    sccache
+    sccache-dist
+skim v0.10.2:
+    sk
+sniffnet v1.0.1:
+    sniffnet
+spotify-tui v0.25.0:
+    spt
+swc_cli v0.91.17 (https://github.com/swc-project/swc#edc43271):
+    swc
+tokei v12.1.2:
+    tokei
+vocage v1.1.0 (https://github.com/sguzman/vocage#53766f71):
+    vocage
+wasm-bindgen-cli v0.2.83:
+    wasm-bindgen
+    wasm-bindgen-test-runner
+    wasm2es6js
+wasm-pack v0.10.3:
+    wasm-pack
+wasm-tools v1.0.16:
+    wasm-tools
+wasmer-compiler-cli v3.2.0-alpha.1 (https://github.com/wasmerio/wasmer#6e850dbc):
+    wasmer-compiler
+wasmtime-cli v6.0.0 (https://github.com/bytecodealliance/wasmtime#e4dc9c79):
+    wasmtime
+wezterm v0.1.0 (https://github.com/wez/wezterm#691ec187):
+    wezterm
+wezterm-gui v0.1.0 (https://github.com/wez/wezterm#691ec187):
+    wezterm-gui
+xsv v0.13.0:
+    xsv
+zellij v0.34.4:
+    zellij
+zoxide v0.9.0:
+    zoxide
