@@ -1,4 +1,8 @@
-hello-2.12.1
+cowsay-3.7.0
+emacs-28.2
+epubcheck-4.2.6
+firefox-109.0.1
+helix-22.12
 neofetch-unstable-2021-12-10
-nixGL
-nixVulkanNvidia-525.89.02
+neovim-0.8.3
+pv-1.6.20
