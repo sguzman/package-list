@@ -1,0 +1,77 @@
+alacritty v0.13.0:
+    alacritty
+asm-cli-rust v0.1.0 (https://github.com/sguzman/asm-cli-rust#9ded257a):
+    asm-cli-rust
+bandwhich v0.21.1:
+    bandwhich
+bat v0.24.0:
+    bat
+bingrep v0.11.0:
+    bingrep
+cargo-update v13.3.0:
+    cargo-install-update
+    cargo-install-update-config
+cargo-watch v8.4.1:
+    cargo-watch
+coreutils v0.0.23:
+    coreutils
+    uudoc
+ddh v0.13.0:
+    ddh
+exa v0.10.1:
+    exa
+fd-find v9.0.0:
+    fd
+feroxbuster v2.10.1:
+    feroxbuster
+git-delta v0.16.5:
+    delta
+hexyl v0.14.0:
+    hexyl
+hyperfine v1.18.0:
+    hyperfine
+jj-cli v0.12.0 (https://github.com/martinvonz/jj#34668f13):
+    fake-diff-editor
+    fake-editor
+    jj
+kmon v1.6.4:
+    kmon
+mdbook v0.4.36:
+    mdbook
+nu v0.88.2 (https://github.com/nushell/nushell#21b3eeed):
+    nu
+ripgrep v14.0.3:
+    rg
+sccache v0.7.4:
+    sccache
+    sccache-dist
+sn0int v0.26.0 (https://github.com/kpcyrd/sn0int#dd52fafa):
+    sn0int
+starship v1.17.0:
+    starship
+surreal v1.0.2 (https://github.com/surrealdb/surrealdb#855fd000):
+    surreal
+swc_cli v0.91.119 (https://github.com/swc-project/swc#4229e7b9):
+    swc
+tauri-cli v1.5.9:
+    cargo-tauri
+tectonic v0.14.1:
+    tectonic
+tokei v12.1.2:
+    tokei
+uiua v0.7.1:
+    uiua
+vocage v1.1.0 (https://github.com/sguzman/vocage#b805ff29):
+    vocage
+wasm-bindgen-cli v0.2.89:
+    wasm-bindgen
+    wasm-bindgen-test-runner
+    wasm2es6js
+wasm-pack v0.12.1:
+    wasm-pack
+wasm-tools v1.0.54:
+    wasm-tools
+wasmtime-cli v17.0.0 (https://github.com/bytecodealliance/wasmtime#b583c54f):
+    wasmtime
+xsv v0.13.0:
+    xsv
