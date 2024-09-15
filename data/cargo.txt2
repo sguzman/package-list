@@ -1,0 +1,143 @@
+alacritty v0.13.2:
+    alacritty
+bacon v2.21.0:
+    bacon
+bandwhich v0.23.0:
+    bandwhich
+bat v0.24.0:
+    bat
+bootimage v0.10.3:
+    bootimage
+    cargo-bootimage
+cargo-update v14.1.1:
+    cargo-install-update
+    cargo-install-update-config
+cargo-vcpkg v0.1.7:
+    cargo-vcpkg
+cargo-watch v8.5.2:
+    cargo-watch
+cargo-whatfeatures v0.9.13:
+    cargo-whatfeatures
+coreutils v0.0.26:
+    uudoc
+coreutils v0.0.27:
+    coreutils
+cranelift-tools v0.0.0 (https://github.com/bytecodealliance/wasmtime#8f941331):
+    clif-util
+deno v1.46.3:
+    deno
+    denort
+dioxus-cli v0.5.7:
+    dx
+diskonaut v0.11.0:
+    diskonaut
+du-dust v1.1.1 (https://github.com/bootandy/dust#b6360860):
+    dust
+eza v0.19.3:
+    eza
+fblog v4.10.0:
+    fblog
+fd-find v10.2.0:
+    fd
+feroxbuster v2.10.4:
+    feroxbuster
+frawk v0.4.8 (/home/sguzman/code/projects/frawk):
+    frawk
+fselect v0.8.6:
+    fselect
+git-delta v0.18.2:
+    delta
+hck v0.10.1:
+    hck
+helix-loader v24.7.0 (https://github.com/helix-editor/helix#237cbe4b):
+    hx-loader
+helix-term v24.7.0 (https://github.com/helix-editor/helix#237cbe4b):
+    hx
+hexyl v0.14.0:
+    hexyl
+hickory-util v0.24.1:
+    dns
+    dnskey-to-pem
+    get-root-ksks
+    pem-to-public-dnskey
+    recurse
+    resolve
+hyperfine v1.18.0:
+    hyperfine
+jj-cli v0.17.0 (https://github.com/martinvonz/jj#20af8c79):
+    fake-diff-editor
+    fake-editor
+jj-cli v0.21.0 (https://github.com/martinvonz/jj#6e72b1cf):
+    jj
+jnv v0.4.0:
+    jnv
+just v1.35.0:
+    just
+kmon v1.6.5:
+    kmon
+licensor v2.1.0:
+    licensor
+mcfly v0.9.2:
+    mcfly
+mdbook v0.4.40:
+    mdbook
+navi v2.23.0:
+    navi
+nu v0.97.2 (https://github.com/nushell/nushell#ebc7b80c):
+    nu
+ox v0.5.1 (https://github.com/curlpipe/ox#344262ac):
+    ox
+pastel v0.10.0:
+    pastel
+ripgrep v14.1.1:
+    rg
+ruff v0.6.5 (https://github.com/astral-sh/ruff#f4de49ab):
+    ruff
+rustscan v2.3.0:
+    rustscan
+rye v0.39.0 (https://github.com/astral-sh/rye#06db9d30):
+    rye
+sccache v0.8.0:
+    sccache-dist
+sccache v0.8.1:
+    sccache
+sea-orm-cli v1.0.1:
+    sea
+    sea-orm-cli
+simple-http-server v0.6.8:
+    simple-http-server
+skanuvaty v0.2.1 (https://github.com/sguzman/skanuvaty#33a007ed):
+    skanuvaty
+sn0int v0.26.0:
+    sn0int
+sniffglue v0.16.1:
+    sniffglue
+sniffnet v1.3.1:
+    sniffnet
+spider_cli v2.5.1 (https://github.com/spider-rs/spider#ce5f2f1f):
+    spider
+spider_worker v2.5.1 (https://github.com/spider-rs/spider#ce5f2f1f):
+    spider_worker
+swc_cli v0.91.412 (https://github.com/swc-project/swc#9dd8f6fa):
+    swc
+systeroid v0.4.4:
+    systeroid
+taplo-cli v0.9.3:
+    taplo
+tokei v12.1.2:
+    tokei
+uv v0.4.10 (https://github.com/astral-sh/uv#3060fd22):
+    uv
+    uvx
+vocage v1.1.0 (https://github.com/sguzman/vocage#af9e84a6):
+    vocage
+wasm-tools v1.217.0:
+    wasm-tools
+wasmer-compiler-cli v4.3.7 (https://github.com/wasmerio/wasmer#c6c348d0):
+    wasmer-compiler
+wasmtime-cli v26.0.0 (https://github.com/bytecodealliance/wasmtime#8f941331):
+    wasmtime
+xml_schema_generator v0.6.14:
+    xml_schema_generator
+xsv v0.13.0:
+    xsv

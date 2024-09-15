@@ -1,0 +1,23 @@
+Legend: production dependency, optional only, dev only
+
+/home/sguzman/.local/share/pnpm/global/5
+
+dependencies:
+@biomejs/biome 1.8.1
+@postlight/parser 2.2.3
+bun 1.1.13
+cash-cli 4.2.1
+cli-mandelbrot 1.0.4
+footballcli 0.14.10
+js-deobfuscator 1.1.0
+jsnice 0.2.0
+jsonresume-theme-kendall-saathoff 1.0.4
+libgen-downloader 2.0.3
+moeda 2.0.0
+npm 10.8.1
+readability-extractor 0.0.6
+resume-cli 3.1.2
+single-file-cli 2.0.43
+speed-test 3.0.0
+uber-cli 1.0.2
+weather-cli 1.5.4
