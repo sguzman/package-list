@@ -1,0 +1,5 @@
+licensor v2.1.0:
+    licensor
+sccache v0.10.0:
+    sccache
+    sccache-dist
