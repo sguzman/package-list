@@ -1,5 +1,14 @@
+coreutils v0.0.30:
+    coreutils
+    uudoc
+kmon v1.7.1:
+    kmon
 licensor v2.1.0:
     licensor
+mcfly v0.9.3:
+    mcfly
+nu-utils v0.103.0 (https://github.com/nushell/nushell?tag=0.103.0#c9864264):
+    utils
 sccache v0.10.0:
     sccache
     sccache-dist
