@@ -1,0 +1,8 @@
+chatgpt-desktop
+evsieve
+hypremoji
+lstr
+microsoft-edge-stable-bin
+sublime-text-4
+visual-studio-code-bin
+zdns-git
