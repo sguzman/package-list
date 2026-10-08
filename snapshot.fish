@@ -12,7 +12,7 @@ end
 
 set -l profile_dir "$repo_root/profiles/$machine"
 
-for tool in yay cargo pnpm uv
+for tool in yay cargo pnpm uv flatpak
     if not command -q $tool
         echo "snapshot: required command not found: $tool" >&2
         exit 1
@@ -54,6 +54,11 @@ or exit 1
 uv python list --only-installed > "$profile_dir/uv-python.txt"
 or exit 1
 
+# Inventory installed Flatpak applications (system and user); omit runtimes.
+# Keep application ID, version, arch, branch, origin and installation scope.
+flatpak list --app --columns=application,version,arch,branch,origin,installation > "$profile_dir/flatpak-apps.txt"
+or exit 1
+
 set -l distro "unknown"
 if test -r /etc/os-release
     set distro (grep '^PRETTY_NAME=' /etc/os-release | string replace 'PRETTY_NAME=' '' | string trim -c '"')
@@ -70,6 +75,7 @@ begin
     echo "cargo: "(cargo --version)
     echo "pnpm: "(pnpm --version)
     echo "uv: "(uv --version)
+    echo "flatpak: "(flatpak --version)
 end > "$profile_dir/meta.txt"
 or exit 1
 

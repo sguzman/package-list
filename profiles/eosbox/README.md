@@ -19,6 +19,8 @@ Expected generated files:
 - `pnpm.txt` — globally installed pnpm packages
 - `uv-tools.txt` — uv-managed tools
 - `uv-python.txt` — uv-visible installed Python runtimes
+- `flatpak-apps.txt` — installed Flatpak applications (not runtimes), showing
+  app ID, version, architecture, branch, origin and user/system installation
 - `meta.txt` — timestamp, OS/kernel, and package-manager versions
 
 This README is static; the other files are generated snapshots.

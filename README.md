@@ -48,6 +48,8 @@ The script snapshots:
 - global pnpm packages;
 - uv-managed tools;
 - uv-managed installed Python runtimes;
+- installed Flatpak applications (user and system), including their version,
+  architecture, branch, origin remote and installation scope, excluding runtimes;
 - machine/toolchain metadata.
 
 It only rewrites the selected profile snapshot files. It does not install,
