@@ -1,8 +1,11 @@
 chatgpt-desktop
 evsieve
 hypremoji
+lmstudio-bin
 lstr
 microsoft-edge-stable-bin
 sublime-text-4
+ttf-atkinson-hyperlegible-next
+ttf-luciole
 visual-studio-code-bin
 zdns-git

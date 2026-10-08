@@ -1,6 +1,6 @@
 profile: eosbox
 hostname: eosbox
-generated_utc: 2026-10-05T02:33:03Z
+generated_utc: 2026-10-08T08:53:44Z
 distro: EndeavourOS
 kernel: Linux 7.2.6-arch2-1 x86_64 GNU/Linux
 fish: fish, version 4.9.3
@@ -8,3 +8,4 @@ yay: yay v13.0.1 - libalpm v16.0.1
 cargo: cargo 1.98.1 (797e8a9bc 2026-08-05)
 pnpm: 11.26.0
 uv: uv 0.12.22 (70fe1196a 2026-10-01 x86_64-unknown-linux-gnu)
+flatpak: Flatpak 1.18.4

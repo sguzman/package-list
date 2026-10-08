@@ -21,6 +21,7 @@ chatgpt-desktop
 clang
 cliphist
 cmake
+conntrack-tools
 cryptsetup
 cuda
 cudnn
@@ -66,6 +67,7 @@ ffmpegthumbnailer
 file-roller
 firefox
 fish
+flatpak
 fortune-mod
 git
 git-delta
@@ -80,6 +82,7 @@ gst-plugin-va
 gvfs
 haveged
 hdparm
+htop
 hwdetect
 hwinfo
 hypremoji
@@ -93,10 +96,12 @@ hyprpolkitagent
 hyprsunset
 inetutils
 inxi
+iperf3
 iptables
 iwd
 jfsutils
 jq
+just
 kernel-install-for-dracut
 kitty
 less
@@ -110,6 +115,7 @@ linux
 linux-firmware
 linux-headers
 lldb
+lmstudio-bin
 logrotate
 lsb-release
 lsscsi
@@ -129,10 +135,12 @@ modemmanager
 mold
 mpv
 mtools
+mtr
 nano
 nano-syntax-highlighting
 neovim
 netctl
+nethogs
 networkmanager
 network-manager-applet
 networkmanager-openconnect
@@ -156,6 +164,8 @@ opencl-nvidia
 opendoas
 openssh
 otf-font-awesome
+otf-monaspace
+otf-monaspace-nerdfonts
 pacman-contrib
 pavucontrol
 perl
@@ -176,6 +186,7 @@ qt6-wayland
 rebuild-detector
 reflector
 reflector-simple
+rofi
 rsync
 rtkit
 rumdl
@@ -194,6 +205,7 @@ sudo
 sysfsutils
 systemd-sysvcompat
 taplo-cli
+tcpdump
 texinfo
 thunar
 thunar-archive-plugin
@@ -201,9 +213,12 @@ thunar-volman
 tldr
 tree
 tree-sitter-cli
+ttf-atkinson-hyperlegible
+ttf-atkinson-hyperlegible-next
 ttf-bitstream-vera
 ttf-dejavu
 ttf-liberation
+ttf-luciole
 ttf-opensans
 tumbler
 unrar
@@ -222,6 +237,8 @@ which
 whois
 wireless-regdb
 wireplumber
+wireshark-cli
+wireshark-qt
 wl-clipboard
 xdg-desktop-portal-hyprland
 xdg-user-dirs

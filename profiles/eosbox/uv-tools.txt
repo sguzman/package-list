@@ -3,3 +3,5 @@ fermion-research v0.2.7
 - phonon
 - phonon-1
 - phonon-2
+whisperx v3.8.6
+- whisperx
