@@ -50,7 +50,16 @@ The script snapshots:
 - uv-managed installed Python runtimes;
 - installed Flatpak applications (user and system), including their version,
   architecture, branch, origin remote and installation scope, excluding runtimes;
+- locally managed AppImages in `~/AppImages`, enriched with launcher names,
+  embedded desktop-entry versions, and integration status when available;
 - machine/toolchain metadata.
+
+AppImages are **not Flatpak applications**. The AppImage snapshot reads Gear
+Lever's default managed directory (`~/AppImages`); override it with
+`PACKAGE_LIST_APPIMAGE_DIR` if you use a different managed directory. AppImage
+versions are reported only when available from matching desktop entries;
+otherwise they are marked `unknown`. Files without a matching desktop launcher
+are marked as not integrated.
 
 It only rewrites the selected profile snapshot files. It does not install,
 remove, upgrade, commit, or push anything.

@@ -21,6 +21,9 @@ Expected generated files:
 - `uv-python.txt` — uv-visible installed Python runtimes
 - `flatpak-apps.txt` — installed Flatpak applications (not runtimes), showing
   app ID, version, architecture, branch, origin and user/system installation
+- `appimage-apps.txt` — locally managed AppImages in `~/AppImages`, with name,
+  desktop-entry version (if available), launcher integration status and path;
+  set `PACKAGE_LIST_APPIMAGE_DIR` to override Gear Lever's managed directory
 - `meta.txt` — timestamp, OS/kernel, and package-manager versions
 
 This README is static; the other files are generated snapshots.
