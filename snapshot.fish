@@ -72,32 +72,7 @@ begin
     printf 'name\tversion\tintegrated\tpath\n'
     if test -d "$appimage_dir"
         for appimage in (find "$appimage_dir" -maxdepth 1 -type f -iname '*.appimage' | sort)
-            set -l app_name (string replace -r '(?i)\.appimage
-
-set -l distro "unknown"
-if test -r /etc/os-release
-    set distro (grep '^PRETTY_NAME=' /etc/os-release | string replace 'PRETTY_NAME=' '' | string trim -c '"')
-end
-
-begin
-    echo "profile: $machine"
-    echo "hostname: "(hostname)
-    echo "generated_utc: "(date -u '+%Y-%m-%dT%H:%M:%SZ')
-    echo "distro: $distro"
-    echo "kernel: "(uname -srmo)
-    echo "fish: "(fish --version)
-    echo "yay: "(yay --version | head -n 1)
-    echo "cargo: "(cargo --version)
-    echo "pnpm: "(pnpm --version)
-    echo "uv: "(uv --version)
-    echo "flatpak: "(flatpak --version)
-end > "$profile_dir/meta.txt"
-or exit 1
-
-echo
-echo "Updated profiles/$machine:"
-git -C "$repo_root" status --short -- "profiles/$machine"
- '' -- (basename -- "$appimage"))
+            set -l app_name (string replace -r '(?i)\.appimage$' '' -- (basename -- "$appimage"))
             set -l app_version unknown
             set -l integrated no
 
