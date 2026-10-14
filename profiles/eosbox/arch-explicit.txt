@@ -73,6 +73,7 @@ git
 git-delta
 github-cli
 glances
+google-chrome
 grim
 gst-libav
 gst-plugin-pipewire
@@ -181,6 +182,7 @@ python
 python-defusedxml
 python-jinja
 python-packaging
+qbittorrent
 qt5-wayland
 qt6-wayland
 rebuild-detector
@@ -199,6 +201,7 @@ smartmontools
 s-nail
 sof-firmware
 starship
+steam
 stylua
 sublime-text-4
 sudo
@@ -227,7 +230,6 @@ upower
 usb_modeswitch
 usbutils
 uv
-visual-studio-code-bin
 vulkan-radeon
 waybar
 welcome
@@ -255,5 +257,6 @@ xorg-xrandr
 xorg-xwayland
 xterm
 yay
+yazi
 yt-dlp
 zdns-git

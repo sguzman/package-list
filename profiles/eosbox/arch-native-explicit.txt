@@ -175,6 +175,7 @@ python
 python-defusedxml
 python-jinja
 python-packaging
+qbittorrent
 qt5-wayland
 qt6-wayland
 rebuild-detector
@@ -193,6 +194,7 @@ smartmontools
 s-nail
 sof-firmware
 starship
+steam
 stylua
 sudo
 sysfsutils
@@ -245,4 +247,5 @@ xorg-xrandr
 xorg-xwayland
 xterm
 yay
+yazi
 yt-dlp
