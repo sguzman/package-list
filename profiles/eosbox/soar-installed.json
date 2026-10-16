@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "name": "aaaaxy",
+      "version": "1.7.218-1",
+      "repo": "soarpkgs",
+      "family": null,
+      "pkg_type": "appimage",
+      "installed_date": "2026-10-16 01:48:40",
+      "pinned": false,
+      "healthy": true
+    },
+    {
+      "name": "aeris",
+      "version": "0.2.1",
+      "repo": "soarpkgs",
+      "family": null,
+      "pkg_type": "onelf",
+      "installed_date": "2026-10-16 01:46:26",
+      "pinned": false,
+      "healthy": true
+    },
+    {
+      "name": "ghostship",
+      "version": "3.0.0",
+      "repo": "soarpkgs",
+      "family": null,
+      "pkg_type": "appimage",
+      "installed_date": "2026-10-16 01:57:01",
+      "pinned": false,
+      "healthy": true
+    }
+  ],
+  "total": 3
+}

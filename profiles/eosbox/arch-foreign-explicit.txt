@@ -1,10 +1,14 @@
+cemu-bin
 chatgpt-desktop
+eden-bin
 evsieve
 google-chrome
 hypremoji
+input-remapper-git
 lmstudio-bin
 lstr
 microsoft-edge-stable-bin
+soar-bin
 sublime-text-4
 ttf-atkinson-hyperlegible-next
 ttf-luciole

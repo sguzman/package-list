@@ -17,6 +17,7 @@ bluez-utils
 btop
 btrfs-progs
 cantarell-fonts
+cemu-bin
 chatgpt-desktop
 clang
 cliphist
@@ -35,12 +36,14 @@ dmraid
 dnsmasq
 docker
 docker-compose
+dolphin-emu
 dosfstools
 downgrade
 dracut
 duf
 dust
 e2fsprogs
+eden-bin
 efibootmgr
 efitools
 egl-wayland
@@ -68,6 +71,7 @@ file-roller
 firefox
 fish
 flatpak
+fooyin
 fortune-mod
 git
 git-delta
@@ -96,6 +100,7 @@ hyprpm
 hyprpolkitagent
 hyprsunset
 inetutils
+input-remapper-git
 inxi
 iperf3
 iptables
@@ -188,6 +193,7 @@ qt6-wayland
 rebuild-detector
 reflector
 reflector-simple
+rmpc
 rofi
 rsync
 rtkit
@@ -199,6 +205,7 @@ sg3_utils
 slurp
 smartmontools
 s-nail
+soar-bin
 sof-firmware
 starship
 steam

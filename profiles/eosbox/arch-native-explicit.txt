@@ -34,6 +34,7 @@ dmraid
 dnsmasq
 docker
 docker-compose
+dolphin-emu
 dosfstools
 downgrade
 dracut
@@ -66,6 +67,7 @@ file-roller
 firefox
 fish
 flatpak
+fooyin
 fortune-mod
 git
 git-delta
@@ -181,6 +183,7 @@ qt6-wayland
 rebuild-detector
 reflector
 reflector-simple
+rmpc
 rofi
 rsync
 rtkit

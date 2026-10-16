@@ -10,6 +10,8 @@ jobflick v2.0.0 (/home/sguzman/Code/Source/Rust/jobflick):
     jobflick
 lexwright v0.1.0 (/home/sguzman/Code/Source/Rust/lexwright):
     lexwright
+manifoldr v1.0.0 (/home/sguzman/Code/Source/Rust/manifoldr):
+    manifoldr
 mcfly-fzf v0.1.3 (https://github.com/bnprks/mcfly-fzf#ce0de1a6):
     mcfly-fzf
 otpick v0.1.0 (/home/sguzman/Code/Source/Rust/otpick):
