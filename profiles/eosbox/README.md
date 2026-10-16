@@ -24,6 +24,9 @@ Expected generated files:
 - `appimage-apps.txt` — locally managed AppImages in `~/AppImages`, with name,
   desktop-entry version (if available), launcher integration status and path;
   set `PACKAGE_LIST_APPIMAGE_DIR` to override Gear Lever's managed directory
+- `soar-installed.json` — locally installed Soar packages (not catalog listings),
+  including versions, origin repository, package type, pin and health state;
+  excludes absolute installation paths
 - `meta.txt` — timestamp, OS/kernel, and package-manager versions
 
 This README is static; the other files are generated snapshots.

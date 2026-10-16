@@ -59,6 +59,39 @@ or exit 1
 flatpak list --app --columns=application,version,arch,branch,origin,installation > "$profile_dir/flatpak-apps.txt"
 or exit 1
 
+# Record only locally installed Soar packages (no catalog sync or network access).
+# Keep a stable, human-readable JSON snapshot and omit machine-specific install paths.
+# Soar is optional because not every machine profile uses it.
+if command -q soar
+    if not command -q python3
+        echo "snapshot: python3 is required to record installed Soar packages" >&2
+        exit 1
+    end
+
+    python3 -c '
+import json
+import pathlib
+import subprocess
+import sys
+
+listing = json.loads(subprocess.check_output(["soar", "--json", "info"], text=True))
+if not isinstance(listing, dict) or not isinstance(listing.get("items"), list):
+    raise ValueError("Unexpected response from soar --json info")
+
+fields = ("name", "version", "repo", "family", "pkg_type", "installed_date", "pinned", "healthy")
+items = [{field: pkg.get(field) for field in fields} for pkg in listing["items"]]
+items.sort(key=lambda pkg: (pkg["repo"] or "", pkg["family"] or "", pkg["name"] or "", pkg["version"] or ""))
+target = pathlib.Path(sys.argv[1])
+temporary = target.with_name(target.name + ".tmp")
+temporary.write_text(json.dumps({"items": items, "total": listing["total"]}, ensure_ascii=False, indent=2) + "\n")
+temporary.replace(target)
+' "$profile_dir/soar-installed.json"
+    or exit 1
+else
+    printf '{\n  "items": [],\n  "total": 0\n}\n' > "$profile_dir/soar-installed.json"
+    or exit 1
+end
+
 # Gear Lever integrates AppImages in ~/AppImages by default, separately from Flatpak.
 # Inventory actual AppImage files, and enrich with Gear Lever desktop-entry metadata.
 # Override PACKAGE_LIST_APPIMAGE_DIR if Gear Lever's managed folder was changed.
@@ -119,6 +152,11 @@ begin
     echo "pnpm: "(pnpm --version)
     echo "uv: "(uv --version)
     echo "flatpak: "(flatpak --version)
+    if command -q soar
+        echo "soar: "(soar --version)
+    else
+        echo "soar: not installed"
+    end
 end > "$profile_dir/meta.txt"
 or exit 1
 

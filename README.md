@@ -50,6 +50,8 @@ The script snapshots:
 - uv-managed installed Python runtimes;
 - installed Flatpak applications (user and system), including their version,
   architecture, branch, origin remote and installation scope, excluding runtimes;
+- Soar-managed installed packages (names, versions, repository, family, package type,
+  installation date, pinned and health state), from the local Soar database;
 - locally managed AppImages in `~/AppImages`, enriched with launcher names,
   embedded desktop-entry versions, and integration status when available;
 - machine/toolchain metadata.
@@ -60,6 +62,13 @@ Lever's default managed directory (`~/AppImages`); override it with
 versions are reported only when available from matching desktop entries;
 otherwise they are marked `unknown`. Files without a matching desktop launcher
 are marked as not integrated.
+
+The Soar snapshot is `soar-installed.json`. It uses `soar --json info` (not
+`soar list`), so it captures only installed packages and does not sync the remote
+catalog. It requires Python 3 when Soar is present. The default user profile is
+captured; if Soar is not installed, an empty inventory is written and
+`meta.txt` says `soar: not installed`. The file intentionally excludes absolute
+installation paths.
 
 It only rewrites the selected profile snapshot files. It does not install,
 remove, upgrade, commit, or push anything.
